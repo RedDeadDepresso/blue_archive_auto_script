@@ -1,0 +1,27 @@
+QScrollArea {
+    background-color: transparent;
+    border: none;
+}
+
+QWidget {
+    background-color: transparent;
+}
+
+#on_status {
+    font-size:18px;
+    padding:10px;
+    font-weight:bold;
+    color: white;
+    background-color: #07bcb6;
+    border-radius: 10px;
+}
+
+#listWidget {
+    background-color: #7569e3;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+StrongBodyLabel, TitleLabel, SubtitleLabel, CaptionLabel {
+    color: white
+}

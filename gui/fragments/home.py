@@ -16,6 +16,7 @@ from qfluentwidgets import (
 )
 
 from core.notification import notify
+from gui.util.style_sheet import StyleSheet
 from gui.util.translator import baasTranslator as bt
 from window import Window
 
@@ -175,6 +176,8 @@ class HomeFragment(QFrame):
         self.expandLayout.addLayout(self.bottomLayout)
         self.setLayout(self.expandLayout)
         # self.startupCard.clicked.connect(self.__init_starter)
+
+        StyleSheet.HOME.apply(self)
 
     def __connectSignalToSlot(self):
         self.thenSignal.connect(self.update_content_then)

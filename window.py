@@ -25,6 +25,7 @@ from gui.util.config_gui import configGui
 from core.config.config_set import ConfigSet
 from gui.util.language import Language
 from gui.util.translator import baasTranslator as bt
+from gui.util.style_sheet import StyleSheet
 
 # sys.stderr = open('error.log', 'w+', encoding='utf-8')
 # sys.stdout = open('output.log', 'w+', encoding='utf-8')
@@ -316,7 +317,7 @@ class BAASTabBar(TabBar):
 class BAASLangAltButton(TransparentToolButton):
     def __init__(self, parent):
         super().__init__(parent)
-        self.setIcon(FIF.LANGUAGE.icon())
+        self.setIcon(FIF.LANGUAGE)
         configGui.language.valueChanged.connect(self._onLangChanged)
 
         self.setToolTip(self.tr('语言设置'))
@@ -367,11 +368,11 @@ class BAASTitleBar(MSFluentTitleBar):
 
         self.langButton = BAASLangAltButton(self)
 
-        self.historyButton = TransparentToolButton(FIF.HISTORY.icon(), self)
+        self.historyButton = TransparentToolButton(FIF.HISTORY, self)
         self.historyButton.setToolTip(self.tr('更新日志'))
         self.historyButton.clicked.connect(self.onHistoryButtonClicked)
 
-        self.helpButton = TransparentToolButton(FIF.HELP.icon(), self)
+        self.helpButton = TransparentToolButton(FIF.HELP, self)
         self.helpButton.setToolTip(self.tr('帮助'))
         self.helpButton.clicked.connect(self.onHelpButtonClicked)
         # self.tabBar.tabCloseRequested.connect(self.tabRemoveRequest)

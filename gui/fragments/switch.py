@@ -14,6 +14,7 @@ from qfluentwidgets import SettingCardGroup
 from gui.components import expand
 from gui.components.template_card import TemplateSettingCard, TemplateSettingCardForClick
 from gui.util.config_gui import configGui
+from gui.util.style_sheet import StyleSheet
 
 lock = threading.Lock()
 
@@ -248,15 +249,10 @@ class SwitchFragment(ScrollArea):
         self.setHorizontalScrollBarPolicy(Qt.ScrollBarAlwaysOff)
         self.setWidgetResizable(True)
         self.settingLabel.setObjectName('settingLabel')
-        self.setStyleSheet('''
-            QScrollArea {
-                background-color: transparent;
-                border: none;
-            }
-        ''')
-        self.viewport().setStyleSheet("background-color: transparent;")
         self.expandLayout.addWidget(self.settingLabel)
         self.update_settings()
+
+        StyleSheet.SWITCH.apply(self)
 
     def __initWidget(self):
         """

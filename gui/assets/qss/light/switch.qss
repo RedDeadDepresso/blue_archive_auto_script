@@ -1,0 +1,12 @@
+QScrollArea {
+    background-color: transparent;
+    border: none;
+}
+
+QWidget {
+    background-color: transparent;
+}
+
+StrongBodyLabel, TitleLabel, SubtitleLabel, CaptionLabel {
+    color: black
+}

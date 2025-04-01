@@ -8,6 +8,7 @@ from qfluentwidgets import (ComboBoxSettingCard, ExpandLayout, FluentIcon as FIF
                             SettingCardGroup,
                             SwitchSettingCard, OptionsSettingCard, CustomColorSettingCard, setTheme, setThemeColor)
 
+from gui.util.style_sheet import StyleSheet
 import window
 from gui.components import expand
 from gui.components.template_card import SimpleSettingCard
@@ -189,13 +190,6 @@ class SettingsFragment(ScrollArea):
         self.setHorizontalScrollBarPolicy(Qt.ScrollBarAlwaysOff)
         self.setWidgetResizable(True)
         self.settingLabel.setObjectName('settingLabel')
-        self.setStyleSheet('''
-            QScrollArea {
-                background-color: transparent;
-                border: none;
-            }
-        ''')
-        self.viewport().setStyleSheet("background-color: transparent;")
 
         self.basicGroup.addSettingCards(self.basicGroupItems)
         self.exploreGroup.addSettingCards(self.exploreGroupItems)
@@ -207,6 +201,8 @@ class SettingsFragment(ScrollArea):
         self.expandLayout.addWidget(self.guiGroup)
 
         self.setWidget(self.scrollWidget)
+
+        StyleSheet.SETTINGS.apply(self)
 
     def __showRestartTooltip(self):
         """ show restart tooltip """

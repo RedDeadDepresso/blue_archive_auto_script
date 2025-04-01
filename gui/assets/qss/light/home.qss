@@ -1,0 +1,3 @@
+StrongBodyLabel, TitleLabel, SubtitleLabel, CaptionLabel {
+    color: black
+}

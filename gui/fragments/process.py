@@ -122,16 +122,9 @@ class ProcessFragment(ScrollArea):
         self.setHorizontalScrollBarPolicy(Qt.ScrollBarAlwaysOff)
         self.setWidgetResizable(True)
         self.settingLabel.setObjectName('settingLabel')
-        self.setStyleSheet('''
-            QScrollArea {
-                background-color: transparent;
-                border: none;
-            }
-        ''')
-        self.viewport().setStyleSheet("background-color: transparent;")
         self.setWidget(self.processWidget)
 
         self.on_status.setObjectName('on_status')
         self.listWidget.setObjectName('listWidget')
-        StyleSheet.PROCESS.apply(self.on_status)
-        StyleSheet.PROCESS.apply(self.listWidget)
+        self.listWidget.setStyleSheet(self.listWidget.styleSheet().replace("background: transparent;", "", 1))
+        StyleSheet.PROCESS.apply(self)
