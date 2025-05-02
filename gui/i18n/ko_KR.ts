@@ -1,6 +1,74 @@
 <!DOCTYPE TS>
 <TS version="2.1" language="ko_KR">
 <context>
+    <name>AssetsWidget</name>
+    <message>
+        <location filename="../util/customed_ui.py" line="232"/>
+        <source>体力</source>
+        <translation type="unfinished">육체의</translation>
+    </message>
+    <message>
+        <location filename="../util/customed_ui.py" line="238"/>
+        <source>信用点</source>
+        <translation type="unfinished">크레딧</translation>
+    </message>
+    <message>
+        <location filename="../util/customed_ui.py" line="244"/>
+        <source>青辉石</source>
+        <translation type="unfinished">청휘석</translation>
+    </message>
+    <message>
+        <location filename="../util/customed_ui.py" line="250"/>
+        <source>竞技币</source>
+        <translation type="unfinished">운동 동전</translation>
+    </message>
+    <message>
+        <location filename="../util/customed_ui.py" line="259"/>
+        <source>悬赏令</source>
+        <translation type="unfinished">포상금 명령서</translation>
+    </message>
+    <message>
+        <location filename="../util/customed_ui.py" line="265"/>
+        <source>拱心片</source>
+        <translation type="unfinished">아치 피스</translation>
+    </message>
+    <message>
+        <location filename="../util/customed_ui.py" line="271"/>
+        <source>拱心石</source>
+        <translation type="unfinished">키스톤</translation>
+    </message>
+    <message>
+        <location filename="../util/customed_ui.py" line="451"/>
+        <source>{0}秒前</source>
+        <translation type="unfinished">{0}초 전</translation>
+    </message>
+    <message>
+        <location filename="../util/customed_ui.py" line="453"/>
+        <source>{0}分钟前</source>
+        <translation type="unfinished">{0}분 전</translation>
+    </message>
+    <message>
+        <location filename="../util/customed_ui.py" line="455"/>
+        <source>{0}小时前</source>
+        <translation type="unfinished">{0}시간 전</translation>
+    </message>
+    <message>
+        <location filename="../util/customed_ui.py" line="457"/>
+        <source>{0}天前</source>
+        <translation type="unfinished">{0}일 전</translation>
+    </message>
+    <message>
+        <location filename="../util/customed_ui.py" line="459"/>
+        <source>{0}个月前</source>
+        <translation type="unfinished">{0} 개월 전</translation>
+    </message>
+    <message>
+        <location filename="../util/customed_ui.py" line="461"/>
+        <source>{0}年前</source>
+        <translation type="unfinished">{0} 년 전</translation>
+    </message>
+</context>
+<context>
     <name>BAASLangAltButton</name>
     <message>
         <location filename="../../window.py" line="323"/>
@@ -737,6 +805,7 @@
     </message>
     <message>
         <location filename="../components/expand/shopPriority.py" line="29"/>
+        <location filename="../components/expand/shopPriority.py" line="29"/>
         <source>确定</source>
         <translation>저장</translation>
     </message>
@@ -900,16 +969,22 @@
     <message>
         <location filename="../components/expand/mainlinePriority.py" line="21"/>
         <source>普通关卡与次数（如"1-1-1,1-2-3"表示关卡1-1打一次，然后关卡1-2打三次）：</source>
+        <location filename="../components/expand/mainlinePriority.py" line="21"/>
+        <source>普通关卡与次数（如"1-1-1,1-2-3"表示关卡1-1打一次，然后关卡1-2打三次）：</source>
         <translation>일반 스테이지 소탕 횟수
+(예: "1-1-1,1-2-3"은 1-1 스테이지를 한 번 소탕 후 1-2 스테이지를 세 번 소탕한다는 뜻):</translation>
 (예: "1-1-1,1-2-3"은 1-1 스테이지를 한 번 소탕 후 1-2 스테이지를 세 번 소탕한다는 뜻):</translation>
     </message>
     <message>
         <location filename="../components/expand/mainlinePriority.py" line="24"/>
+        <location filename="../components/expand/mainlinePriority.py" line="24"/>
         <source>困难关卡设置同上，注意：次数最多为3），逗号均为英文逗号，日服、国际服可填max：</source>
         <translation>하드 스테이지 설정은 위와 동일하지만(참고: 최대 횟수는 3회),
 구분은 쉼표로, 일본 서버와 해외 서버는 'max'로 입력할 수 있습니다:</translation>
+구분은 쉼표로, 일본 서버와 해외 서버는 'max'로 입력할 수 있습니다:</translation>
     </message>
     <message>
+        <location filename="../components/expand/mainlinePriority.py" line="137"/>
         <location filename="../components/expand/mainlinePriority.py" line="137"/>
         <source>根据学生添加关卡</source>
         <translation>학생들에 따라 레벨을 추가하십시오</translation>
@@ -920,6 +995,7 @@
         <translation>텐도 아리스</translation>
     </message>
     <message>
+        <location filename="../components/expand/mainlinePriority.py" line="134"/>
         <location filename="../components/expand/mainlinePriority.py" line="134"/>
         <source>设置失败</source>
         <translation>설정 실패</translation>
@@ -986,10 +1062,12 @@
     </message>
     <message>
         <location filename="../components/expand/shopPriority.py" line="38"/>
+        <location filename="../components/expand/shopPriority.py" line="38"/>
         <source>信用点</source>
         <translation>크레딧</translation>
     </message>
     <message>
+        <location filename="../components/expand/shopPriority.py" line="40"/>
         <location filename="../components/expand/shopPriority.py" line="40"/>
         <source>青辉石</source>
         <translation>청휘석</translation>
@@ -1026,15 +1104,18 @@
     </message>
     <message>
         <location filename="../components/expand/eventMapConfig.py" line="116"/>
+        <location filename="../components/expand/eventMapConfig.py" line="116"/>
         <source>故事</source>
         <translation>이야기</translation>
     </message>
     <message>
         <location filename="../components/expand/eventMapConfig.py" line="117"/>
+        <location filename="../components/expand/eventMapConfig.py" line="117"/>
         <source>任务</source>
         <translation>과업</translation>
     </message>
     <message>
+        <location filename="../components/expand/eventMapConfig.py" line="118"/>
         <location filename="../components/expand/eventMapConfig.py" line="118"/>
         <source>挑战</source>
         <translation>도전</translation>
@@ -1154,7 +1235,10 @@
         <location filename="../components/expand/scriptConfig.py" line="24"/>
         <source>速度 nemu &gt;&gt; uiautomator2 ≈ adb, 
 推荐使用nemu并且如果使用nemu, 请设置'模拟器地址'为你MuMu模拟器路径, 精确到MuMuPlayer.exe</source>
+推荐使用nemu并且如果使用nemu, 请设置'模拟器地址'为你MuMu模拟器路径, 精确到MuMuPlayer.exe</source>
         <translation>Speed nemu &gt;&gt; uiautomator2 ≈ adb, 
+nemu를 사용하는 것이 좋으며, nemu를 사용하는 경우 '에뮬레이터 
+주소'를 MuMu 에뮬레이터 경로로 정확하게 설정해MuMuPlayer.exe</translation>
 nemu를 사용하는 것이 좋으며, nemu를 사용하는 경우 '에뮬레이터 
 주소'를 MuMu 에뮬레이터 경로로 정확하게 설정해MuMuPlayer.exe</translation>
     </message>
@@ -1205,15 +1289,18 @@ nemu를 사용하는 것이 좋으며, nemu를 사용하는 경우 '에뮬레이
     </message>
     <message>
         <location filename="../components/expand/createPriority.py" line="217"/>
+        <location filename="../components/expand/createPriority.py" line="217"/>
         <source>一级制造配置</source>
         <translation>레벨 1 제조 구성</translation>
     </message>
     <message>
         <location filename="../components/expand/createPriority.py" line="218"/>
+        <location filename="../components/expand/createPriority.py" line="218"/>
         <source>二级制造配置</source>
         <translation>2차 제조 구성</translation>
     </message>
     <message>
+        <location filename="../components/expand/createPriority.py" line="219"/>
         <location filename="../components/expand/createPriority.py" line="219"/>
         <source>三级制造配置</source>
         <translation>3단계 제조 구성</translation>
@@ -1270,41 +1357,46 @@ nemu를 사용하는 것이 좋으며, nemu를 사용하는 경우 '에뮬레이
     </message>
     <message>
         <location filename="../components/expand/createPriority.py" line="265"/>
+        <location filename="../components/expand/createPriority.py" line="265"/>
         <source>一键设置推荐优先级</source>
         <translation>한 번의 클릭으로 추천 우선 순위 설정</translation>
     </message>
     <message>
+        <location filename="../components/expand/createPriority.py" line="268"/>
         <location filename="../components/expand/createPriority.py" line="268"/>
         <source>选择学生</source>
         <translation>학생을 선택합니다</translation>
     </message>
     <message>
         <location filename="../components/expand/createPriority.py" line="311"/>
+        <location filename="../components/expand/createPriority.py" line="311"/>
         <source>制造优先级</source>
         <translation>제조 우선 순위</translation>
     </message>
     <message>
+        <location filename="../components/expand/createPriority.py" line="325"/>
         <location filename="../components/expand/createPriority.py" line="325"/>
         <source>修改成功</source>
         <translation>수정에 성공했습니다</translation>
     </message>
     <message>
         <location filename="../components/expand/createPriority.py" line="325"/>
+        <location filename="../components/expand/createPriority.py" line="325"/>
         <source>推荐制造优先级</source>
         <translation>제조 우선 순위 권장</translation>
     </message>
     <message>
-        <location filename="../components/expand/schedulePriority.py" line="23"/>
+        <location filename="../components/expand/schedulePriority.py" line="26"/>
         <source>优先做指定学生存在的日程</source>
         <translation>학생의 출석을 지정하는 일정에 우선 순위가 부여됩니다</translation>
     </message>
     <message>
-        <location filename="../components/expand/schedulePriority.py" line="27"/>
+        <location filename="../components/expand/schedulePriority.py" line="30"/>
         <source>指定学生</source>
         <translation>학생 배정</translation>
     </message>
     <message>
-        <location filename="../components/expand/schedulePriority.py" line="71"/>
+        <location filename="../components/expand/schedulePriority.py" line="74"/>
         <source>指定学生(填写指南见wiki)</source>
         <translation>학생 배정(채우는 방법에 대한 지침은 wiki 참조)</translation>
     </message>
@@ -1447,6 +1539,7 @@ nemu를 사용하는 것이 좋으며, nemu를 사용하는 경우 '에뮬레이
     <name>ProcessFragment</name>
     <message>
         <location filename="../fragments/process.py" line="30"/>
+        <location filename="../fragments/process.py" line="30"/>
         <source>调度状态</source>
         <translation>예약 상태</translation>
     </message>
@@ -1457,6 +1550,7 @@ nemu를 사용하는 것이 좋으며, nemu를 사용하는 경우 '에뮬레이
     </message>
     <message>
         <location filename="../fragments/process.py" line="113"/>
+        <location filename="../fragments/process.py" line="113"/>
         <source>暂无正在执行的任务</source>
         <translation>작업중인 로동이 없습니다</translation>
     </message>
@@ -1466,6 +1560,7 @@ nemu를 사용하는 것이 좋으며, nemu를 사용하는 경우 '에뮬레이
         <translation>로동계획</translation>
     </message>
     <message>
+        <location filename="../fragments/process.py" line="115"/>
         <location filename="../fragments/process.py" line="115"/>
         <source>暂无队列中的任务</source>
         <translation>실행중인 로동계획이 없습니다</translation>
