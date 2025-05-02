@@ -4,7 +4,7 @@
 <context>
     <name>BAASLangAltButton</name>
     <message>
-        <location filename="../../window.py" line="322"/>
+        <location filename="../../window.py" line="323"/>
         <source>语言设置</source>
         <translation>言語設定</translation>
     </message>
@@ -12,7 +12,7 @@
 <context>
     <name>BAASTabItem</name>
     <message>
-        <location filename="../../window.py" line="264"/>
+        <location filename="../../window.py" line="265"/>
         <source>重命名</source>
         <translation>名前の変更</translation>
     </message>
@@ -20,12 +20,12 @@
 <context>
     <name>BAASTitleBar</name>
     <message>
-        <location filename="../../window.py" line="375"/>
+        <location filename="../../window.py" line="376"/>
         <source>帮助</source>
         <translation>ヘルプ</translation>
     </message>
     <message>
-        <location filename="../../window.py" line="371"/>
+        <location filename="../../window.py" line="372"/>
         <source>更新日志</source>
         <translation>変更履歴</translation>
     </message>
@@ -43,7 +43,7 @@
         <translation>指名手配</translation>
     </message>
     <message>
-        <location filename="../util/config_translation.py" line="56"/>
+        <location filename="../util/config_translation.py" line="60"/>
         <source>竞技场</source>
         <translation>戦術対抗戦</translation>
     </message>
@@ -58,17 +58,17 @@
         <translation>グループAPを集める</translation>
     </message>
     <message>
-        <location filename="../util/config_translation.py" line="53"/>
+        <location filename="../util/config_translation.py" line="57"/>
         <source>商店购买</source>
         <translation>しょっぷで買い物</translation>
     </message>
     <message>
-        <location filename="../util/config_translation.py" line="52"/>
+        <location filename="../util/config_translation.py" line="56"/>
         <source>日程</source>
         <translation>スケジュール</translation>
     </message>
     <message>
-        <location filename="../util/config_translation.py" line="55"/>
+        <location filename="../util/config_translation.py" line="59"/>
         <source>主线清除体力</source>
         <translation>本編ステージでAPをクリア</translation>
     </message>
@@ -78,7 +78,7 @@
         <translation>自動MomoTalk</translation>
     </message>
     <message>
-        <location filename="../util/config_translation.py" line="51"/>
+        <location filename="../util/config_translation.py" line="55"/>
         <source>咖啡厅</source>
         <translation>カフェ</translation>
     </message>
@@ -88,7 +88,7 @@
         <translation>自動メール確認</translation>
     </message>
     <message>
-        <location filename="../util/config_translation.py" line="57"/>
+        <location filename="../util/config_translation.py" line="61"/>
         <source>自动制造</source>
         <translation>自動製造</translation>
     </message>
@@ -108,7 +108,7 @@
         <translation>ハードステージでAPをクリア</translation>
     </message>
     <message>
-        <location filename="../util/config_translation.py" line="58"/>
+        <location filename="../util/config_translation.py" line="62"/>
         <source>总力战</source>
         <translation>総力戦</translation>
     </message>
@@ -143,314 +143,344 @@
         <translation>カフェ招待</translation>
     </message>
     <message>
-        <location filename="../util/config_translation.py" line="49"/>
+        <location filename="../util/config_translation.py" line="53"/>
         <source>新的配置</source>
         <translation>新しい設定</translation>
     </message>
     <message>
-        <location filename="../util/config_translation.py" line="50"/>
+        <location filename="../util/config_translation.py" line="54"/>
         <source>功能开关</source>
         <translation>機能スイッチ</translation>
     </message>
     <message>
-        <location filename="../util/config_translation.py" line="54"/>
+        <location filename="../util/config_translation.py" line="58"/>
         <source>竞技场商店购买</source>
         <translation>戦術対抗戦ショップ購入</translation>
     </message>
     <message>
-        <location filename="../util/config_translation.py" line="59"/>
+        <location filename="../util/config_translation.py" line="63"/>
         <source>扫荡及购买券设置</source>
         <translation>スイープ・クーポン購入設定</translation>
     </message>
     <message>
-        <location filename="../util/config_translation.py" line="62"/>
+        <location filename="../util/config_translation.py" line="68"/>
         <source>重要，此处为功能开关，控制各功能是否开启，启动前请检查是否开启。</source>
         <translation>重要、ここに各機能がオンになっているかどうかを制御する機能スイッ&lt;bt/&gt;チがありますので、開始する前に有効になっているかどうかを確認してください。</translation>
     </message>
     <message>
-        <location filename="../util/config_translation.py" line="63"/>
+        <location filename="../util/config_translation.py" line="69"/>
         <source>帮助你收集咖啡厅体力和信用点</source>
         <translation>カフェのAPとクレジットを集める</translation>
     </message>
     <message>
-        <location filename="../util/config_translation.py" line="64"/>
+        <location filename="../util/config_translation.py" line="70"/>
         <source>自动每日日程</source>
         <translation>自動毎日スケジュール</translation>
     </message>
     <message>
-        <location filename="../util/config_translation.py" line="65"/>
+        <location filename="../util/config_translation.py" line="71"/>
         <source>商店里买东西</source>
         <translation>ショッピング</translation>
     </message>
     <message>
-        <location filename="../util/config_translation.py" line="66"/>
+        <location filename="../util/config_translation.py" line="72"/>
         <source>竞技场商店里买东西</source>
         <translation>戦術対抗戦ショップで物を買う</translation>
     </message>
     <message>
-        <location filename="../util/config_translation.py" line="67"/>
+        <location filename="../util/config_translation.py" line="73"/>
         <source>主线关卡自动清除体力与每日困难</source>
         <translation>本編ステージでAPをクリアと毎日ハードステージクリア</translation>
     </message>
     <message>
-        <location filename="../util/config_translation.py" line="68"/>
+        <location filename="../util/config_translation.py" line="74"/>
         <source>帮助你自动打竞技场</source>
         <translation>アリーナをクリア</translation>
     </message>
     <message>
-        <location filename="../util/config_translation.py" line="69"/>
+        <location filename="../util/config_translation.py" line="75"/>
         <source>帮助你自动制造</source>
         <translation>自動製造</translation>
     </message>
     <message>
-        <location filename="../util/config_translation.py" line="70"/>
+        <location filename="../util/config_translation.py" line="76"/>
         <source>总力战期间自动打总力战</source>
         <translation>総力戦中に自動的に総力戦を戦う</translation>
     </message>
     <message>
-        <location filename="../util/config_translation.py" line="71"/>
+        <location filename="../util/config_translation.py" line="77"/>
         <source>各种扫荡及购买券次数设置</source>
         <translation>各種スイープ・クーポン購入時間設定</translation>
     </message>
     <message>
-        <location filename="../util/config_translation.py" line="76"/>
+        <location filename="../util/config_translation.py" line="82"/>
         <source>初级经验书</source>
         <translation>初級レポート</translation>
     </message>
     <message>
-        <location filename="../util/config_translation.py" line="77"/>
+        <location filename="../util/config_translation.py" line="83"/>
         <source>中级经验书</source>
         <translation>中級レポート</translation>
     </message>
     <message>
-        <location filename="../util/config_translation.py" line="78"/>
+        <location filename="../util/config_translation.py" line="84"/>
         <source>高级经验书</source>
         <translation>高級レポート</translation>
     </message>
     <message>
-        <location filename="../util/config_translation.py" line="79"/>
+        <location filename="../util/config_translation.py" line="85"/>
         <source>特级经验书</source>
         <translation>特級レポート</translation>
     </message>
     <message>
-        <location filename="../util/config_translation.py" line="80"/>
+        <location filename="../util/config_translation.py" line="86"/>
         <source>初级经验珠</source>
         <translation>初級強化珠</translation>
     </message>
     <message>
-        <location filename="../util/config_translation.py" line="81"/>
+        <location filename="../util/config_translation.py" line="87"/>
         <source>中级经验珠</source>
         <translation>中級強化珠</translation>
     </message>
     <message>
-        <location filename="../util/config_translation.py" line="82"/>
+        <location filename="../util/config_translation.py" line="88"/>
         <source>高级经验珠</source>
         <translation>高級強化珠</translation>
     </message>
     <message>
-        <location filename="../util/config_translation.py" line="83"/>
+        <location filename="../util/config_translation.py" line="89"/>
         <source>特级经验珠</source>
         <translation>特級強化珠</translation>
     </message>
     <message>
-        <location filename="../util/config_translation.py" line="84"/>
+        <location filename="../util/config_translation.py" line="90"/>
         <source>随机初级神秘古物</source>
         <translation>ランダム初級神秘古物</translation>
     </message>
     <message>
-        <location filename="../util/config_translation.py" line="85"/>
+        <location filename="../util/config_translation.py" line="91"/>
         <source>随机中级神秘古物</source>
         <translation>ランダム中級神秘古物</translation>
     </message>
     <message>
-        <location filename="../util/config_translation.py" line="89"/>
+        <location filename="../util/config_translation.py" line="95"/>
         <source>静子神明文字x5</source>
         <translation>静子 神名文字 x5</translation>
     </message>
     <message>
-        <location filename="../util/config_translation.py" line="90"/>
+        <location filename="../util/config_translation.py" line="96"/>
         <source>真白神明文字x5</source>
         <translation>真白神名文字×5</translation>
     </message>
     <message>
-        <location filename="../util/config_translation.py" line="91"/>
+        <location filename="../util/config_translation.py" line="97"/>
         <source>纱绫神明文字x5</source>
         <translation>紗綾 神名文字 x5</translation>
     </message>
     <message>
-        <location filename="../util/config_translation.py" line="92"/>
+        <location filename="../util/config_translation.py" line="98"/>
         <source>风香神明文字x5</source>
         <translation>風香神名文字 x5</translation>
     </message>
     <message>
-        <location filename="../util/config_translation.py" line="93"/>
+        <location filename="../util/config_translation.py" line="99"/>
         <source>歌原神明文字x5</source>
         <translation>歌原 神名文字 x5</translation>
     </message>
     <message>
-        <location filename="../util/config_translation.py" line="94"/>
+        <location filename="../util/config_translation.py" line="100"/>
         <source>初级经验书x5</source>
         <translation>初级レポート x5</translation>
     </message>
     <message>
-        <location filename="../util/config_translation.py" line="95"/>
+        <location filename="../util/config_translation.py" line="101"/>
         <source>中级经验书x10</source>
         <translation>中級レポート x10</translation>
     </message>
     <message>
-        <location filename="../util/config_translation.py" line="96"/>
+        <location filename="../util/config_translation.py" line="102"/>
         <source>高级经验书x3</source>
         <translation>高級レポート x3</translation>
     </message>
     <message>
-        <location filename="../util/config_translation.py" line="97"/>
+        <location filename="../util/config_translation.py" line="103"/>
         <source>特级经验书x1</source>
         <translation>特級レポート x1</translation>
     </message>
     <message>
-        <location filename="../util/config_translation.py" line="98"/>
+        <location filename="../util/config_translation.py" line="104"/>
         <source>信用点x5k</source>
         <translation>クレジット x5k</translation>
     </message>
     <message>
-        <location filename="../util/config_translation.py" line="99"/>
+        <location filename="../util/config_translation.py" line="105"/>
         <source>信用点x75k</source>
         <translation>クレジットx75k</translation>
     </message>
     <message>
-        <location filename="../util/config_translation.py" line="100"/>
+        <location filename="../util/config_translation.py" line="106"/>
         <source>信用点x125k</source>
         <translation>クレジット x125k</translation>
     </message>
     <message>
-        <location filename="../util/config_translation.py" line="103"/>
+        <location filename="../util/config_translation.py" line="109"/>
         <source>官服</source>
         <translation>中国</translation>
     </message>
     <message>
-        <location filename="../util/config_translation.py" line="104"/>
+        <location filename="../util/config_translation.py" line="110"/>
         <source>B服</source>
         <translation>ビリビリ</translation>
     </message>
     <message>
-        <location filename="../util/config_translation.py" line="105"/>
+        <location filename="../util/config_translation.py" line="111"/>
         <source>国际服</source>
         <translation>国際</translation>
     </message>
     <message>
-        <location filename="../util/config_translation.py" line="108"/>
+        <location filename="../util/config_translation.py" line="114"/>
         <source>日服</source>
         <translation>日本</translation>
     </message>
     <message>
-        <location filename="../util/config_translation.py" line="111"/>
+        <location filename="../util/config_translation.py" line="117"/>
         <source>拖动礼物</source>
         <translation>ギフトドラッグ</translation>
     </message>
     <message>
-        <location filename="../util/config_translation.py" line="114"/>
+        <location filename="../util/config_translation.py" line="120"/>
         <source>MuMu模拟器</source>
         <translation>MuMuエミュレータ</translation>
     </message>
     <message>
-        <location filename="../util/config_translation.py" line="116"/>
+        <location filename="../util/config_translation.py" line="122"/>
         <source>蓝叠模拟器</source>
         <translation>Blue Stack「中国」シミュレータ</translation>
     </message>
     <message>
-        <location filename="../util/config_translation.py" line="117"/>
+        <location filename="../util/config_translation.py" line="123"/>
         <source>蓝叠国际版</source>
         <translation>Blue Stack「国際」シミュレータ</translation>
     </message>
     <message>
-        <location filename="../util/config_translation.py" line="106"/>
+        <location filename="../util/config_translation.py" line="112"/>
         <source>国际服青少年</source>
         <translation>国際少年</translation>
     </message>
     <message>
-        <location filename="../util/config_translation.py" line="107"/>
+        <location filename="../util/config_translation.py" line="113"/>
         <source>韩国ONE</source>
         <translation>韓国One</translation>
     </message>
     <message>
-        <location filename="../util/config_translation.py" line="88"/>
+        <location filename="../util/config_translation.py" line="94"/>
         <source>宫子神明文字x5</source>
         <translation>宫子神明文字 x5</translation>
     </message>
     <message>
-        <location filename="../util/config_translation.py" line="120"/>
+        <location filename="../util/config_translation.py" line="126"/>
         <source>无动作</source>
         <translation>アクションなし</translation>
     </message>
     <message>
-        <location filename="../util/config_translation.py" line="121"/>
+        <location filename="../util/config_translation.py" line="127"/>
         <source>退出 Baas</source>
         <translation>バース出口</translation>
     </message>
     <message>
-        <location filename="../util/config_translation.py" line="122"/>
+        <location filename="../util/config_translation.py" line="128"/>
         <source>退出 模拟器</source>
         <translation>エミュレータを終了します</translation>
     </message>
     <message>
-        <location filename="../util/config_translation.py" line="123"/>
+        <location filename="../util/config_translation.py" line="129"/>
         <source>退出 Baas 和 模拟器</source>
         <translation>BaasとSimulatorを終了します</translation>
     </message>
     <message>
-        <location filename="../util/config_translation.py" line="124"/>
+        <location filename="../util/config_translation.py" line="130"/>
         <source>关机</source>
         <translation>シャットダウン</translation>
     </message>
     <message>
-        <location filename="../util/config_translation.py" line="115"/>
+        <location filename="../util/config_translation.py" line="121"/>
         <source>MuMu模拟器全球版</source>
         <translation>MuMuエミュレータグローバル版</translation>
     </message>
     <message>
-        <location filename="../util/config_translation.py" line="127"/>
+        <location filename="../util/config_translation.py" line="133"/>
         <source>贯穿</source>
         <translation>貫通</translation>
     </message>
     <message>
-        <location filename="../util/config_translation.py" line="128"/>
+        <location filename="../util/config_translation.py" line="134"/>
         <source>爆发</source>
         <translation>爆発</translation>
     </message>
     <message>
-        <location filename="../util/config_translation.py" line="129"/>
+        <location filename="../util/config_translation.py" line="135"/>
         <source>神秘</source>
         <translation>神秘</translation>
     </message>
     <message>
-        <location filename="../util/config_translation.py" line="130"/>
+        <location filename="../util/config_translation.py" line="136"/>
         <source>振动</source>
         <translation>振動</translation>
     </message>
     <message>
-        <location filename="../util/config_translation.py" line="72"/>
+        <location filename="../util/config_translation.py" line="78"/>
         <source>自动清好友白名单(仅国服)</source>
         <translation>友だちの自動ホワイトリスト(中国語サーバーのみ)</translation>
     </message>
     <message>
-        <location filename="../util/config_translation.py" line="73"/>
+        <location filename="../util/config_translation.py" line="79"/>
         <source>设置在定期好友清理中需要保留的好友码</source>
         <translation>定期的なフレンドクリーンアップで保持する必要があるフレンドコードを設定します</translation>
     </message>
     <message>
-        <location filename="../util/config_translation.py" line="133"/>
+        <location filename="../util/config_translation.py" line="139"/>
         <source>开</source>
         <translation>開く</translation>
     </message>
     <message>
-        <location filename="../util/config_translation.py" line="134"/>
+        <location filename="../util/config_translation.py" line="140"/>
         <source>关</source>
         <translation>閉める</translation>
     </message>
     <message>
-        <location filename="../util/config_translation.py" line="135"/>
+        <location filename="../util/config_translation.py" line="141"/>
         <source>默认</source>
         <translation>デフォルト</translation>
+    </message>
+    <message>
+        <location filename="../util/config_translation.py" line="47"/>
+        <source>清理好友</source>
+        <translation type="unfinished">友達を整理する</translation>
+    </message>
+    <message>
+        <location filename="../util/config_translation.py" line="48"/>
+        <source>综合战术测试</source>
+        <translation type="unfinished">総合戦術テスト</translation>
+    </message>
+    <message>
+        <location filename="../util/config_translation.py" line="49"/>
+        <source>1号咖啡厅邀请</source>
+        <translation type="unfinished">1号カフェの招待</translation>
+    </message>
+    <message>
+        <location filename="../util/config_translation.py" line="50"/>
+        <source>2号咖啡厅邀请</source>
+        <translation type="unfinished">2号カフェの招待</translation>
+    </message>
+    <message>
+        <location filename="../util/config_translation.py" line="64"/>
+        <source>战术综合测试</source>
+        <translation type="unfinished">戦術総合テスト</translation>
+    </message>
+    <message>
+        <location filename="../util/config_translation.py" line="65"/>
+        <source>帮助你自动打战术综合测试</source>
+        <translation type="unfinished">戦術総合テストを自動で行うのを手伝います</translation>
     </message>
 </context>
 <context>
@@ -527,6 +557,24 @@
         <location filename="../components/expand/featureSwitch.py" line="43"/>
         <source>事件名称</source>
         <translation>イベントの名前</translation>
+    </message>
+</context>
+<context>
+    <name>DrillConfig</name>
+    <message>
+        <location filename="../components/expand/drillConfig.py" line="16"/>
+        <source>是否在出击后扫荡所有测试挑战券</source>
+        <translation type="unfinished">攻撃後にすべてのテスト挑戦券を掃除するかどうか</translation>
+    </message>
+    <message>
+        <location filename="../components/expand/drillConfig.py" line="27"/>
+        <source>出击队伍编号</source>
+        <translation type="unfinished">出撃隊伍番号</translation>
+    </message>
+    <message>
+        <location filename="../components/expand/drillConfig.py" line="32"/>
+        <source>出击难度</source>
+        <translation type="unfinished">出撃難易度</translation>
     </message>
 </context>
 <context>
@@ -639,37 +687,37 @@
 <context>
     <name>HomeFragment</name>
     <message>
-        <location filename="../fragments/home.py" line="57"/>
+        <location filename="../fragments/home.py" line="58"/>
         <source>蔚蓝档案自动脚本</source>
         <translation>ブルアカ 自動スクリプト</translation>
     </message>
     <message>
-        <location filename="../fragments/home.py" line="61"/>
+        <location filename="../fragments/home.py" line="62"/>
         <source>无任务</source>
         <translation>タスクなし</translation>
     </message>
     <message>
-        <location filename="../fragments/home.py" line="78"/>
+        <location filename="../fragments/home.py" line="79"/>
         <source>启动</source>
         <translation>起動</translation>
     </message>
     <message>
-        <location filename="../fragments/home.py" line="78"/>
+        <location filename="../fragments/home.py" line="79"/>
         <source>档案，启动</source>
         <translation>ブルアカ、起動</translation>
     </message>
     <message>
-        <location filename="../fragments/home.py" line="195"/>
+        <location filename="../fragments/home.py" line="198"/>
         <source>开始你的档案之旅</source>
         <translation>アーカイブの旅を始めましょう</translation>
     </message>
     <message>
-        <location filename="../fragments/home.py" line="137"/>
+        <location filename="../fragments/home.py" line="138"/>
         <source>正在运行：</source>
         <translation>実行中：</translation>
     </message>
     <message>
-        <location filename="../fragments/home.py" line="195"/>
+        <location filename="../fragments/home.py" line="198"/>
         <source>完成后</source>
         <translation>完了したら</translation>
     </message>
@@ -687,7 +735,7 @@
         <translation>更新する必要がある最大回数を入力します：</translation>
     </message>
     <message>
-        <location filename="../components/expand/shopPriority.py" line="30"/>
+        <location filename="../components/expand/shopPriority.py" line="29"/>
         <source>确定</source>
         <translation>確認</translation>
     </message>
@@ -842,17 +890,17 @@
         <translation>ハードステージをクリア</translation>
     </message>
     <message>
-        <location filename="../components/expand/mainlinePriority.py" line="20"/>
+        <location filename="../components/expand/mainlinePriority.py" line="21"/>
         <source>普通关卡与次数（如&quot;1-1-1,1-2-3&quot;表示关卡1-1打一次，然后关卡1-2打三次）：</source>
         <translation>普通のステージ名時間(例:「1-1-1、1-2-3」は、レベルが1-1で1回プレイされ、その後、レベルが1-2で3回プレイされることを意味します):</translation>
     </message>
     <message>
-        <location filename="../components/expand/mainlinePriority.py" line="23"/>
+        <location filename="../components/expand/mainlinePriority.py" line="24"/>
         <source>困难关卡设置同上，注意：次数最多为3），逗号均为英文逗号，日服、国际服可填max：</source>
         <translation>ハードステージの設定は上記と同じですが、（注:最大回数は3回です）、カンマは英語のカンマで、日本サーバーと海外サーバーには「max」で入力できます：</translation>
     </message>
     <message>
-        <location filename="../components/expand/mainlinePriority.py" line="117"/>
+        <location filename="../components/expand/mainlinePriority.py" line="137"/>
         <source>根据学生添加关卡</source>
         <translation>学生に基づいてレベルを追加する</translation>
     </message>
@@ -862,42 +910,42 @@
         <translation>アリス・ベイビー</translation>
     </message>
     <message>
-        <location filename="../components/expand/mainlinePriority.py" line="114"/>
+        <location filename="../components/expand/mainlinePriority.py" line="134"/>
         <source>设置失败</source>
         <translation>セットアップ失敗</translation>
     </message>
     <message>
-        <location filename="../components/expand/schedulePriority.py" line="33"/>
+        <location filename="../components/expand/schedulePriority.py" line="32"/>
         <source>优先做好感等级多的日程</source>
         <translation>好感が多くのスケジュールが優先されます</translation>
     </message>
     <message>
-        <location filename="../components/expand/schedulePriority.py" line="148"/>
+        <location filename="../components/expand/schedulePriority.py" line="150"/>
         <source>日程次数</source>
         <translation>スケジュールの回数</translation>
     </message>
     <message>
-        <location filename="../components/expand/schedulePriority.py" line="130"/>
+        <location filename="../components/expand/schedulePriority.py" line="132"/>
         <source>区域名称</source>
         <translation>地域の名前</translation>
     </message>
     <message>
-        <location filename="../components/expand/schedulePriority.py" line="136"/>
+        <location filename="../components/expand/schedulePriority.py" line="138"/>
         <source>初级</source>
         <translation>ジュニア</translation>
     </message>
     <message>
-        <location filename="../components/expand/schedulePriority.py" line="136"/>
+        <location filename="../components/expand/schedulePriority.py" line="138"/>
         <source>普通</source>
         <translation>普通</translation>
     </message>
     <message>
-        <location filename="../components/expand/schedulePriority.py" line="136"/>
+        <location filename="../components/expand/schedulePriority.py" line="138"/>
         <source>高级</source>
         <translation>高級</translation>
     </message>
     <message>
-        <location filename="../components/expand/schedulePriority.py" line="136"/>
+        <location filename="../components/expand/schedulePriority.py" line="138"/>
         <source>特级</source>
         <translation>特級</translation>
     </message>
@@ -927,12 +975,12 @@
         <translation>adbアドレスを取得できませんでした</translation>
     </message>
     <message>
-        <location filename="../components/expand/shopPriority.py" line="39"/>
+        <location filename="../components/expand/shopPriority.py" line="38"/>
         <source>信用点</source>
         <translation>クレジット</translation>
     </message>
     <message>
-        <location filename="../components/expand/shopPriority.py" line="41"/>
+        <location filename="../components/expand/shopPriority.py" line="40"/>
         <source>青辉石</source>
         <translation>青煇石</translation>
     </message>
@@ -1007,27 +1055,27 @@
         <translation>属性</translation>
     </message>
     <message>
-        <location filename="../components/expand/eventMapConfig.py" line="117"/>
+        <location filename="../components/expand/eventMapConfig.py" line="116"/>
         <source>故事</source>
         <translation>物語</translation>
     </message>
     <message>
-        <location filename="../components/expand/eventMapConfig.py" line="118"/>
+        <location filename="../components/expand/eventMapConfig.py" line="117"/>
         <source>任务</source>
         <translation>タスク</translation>
     </message>
     <message>
-        <location filename="../components/expand/eventMapConfig.py" line="119"/>
+        <location filename="../components/expand/eventMapConfig.py" line="118"/>
         <source>挑战</source>
         <translation>挑戦</translation>
     </message>
     <message>
-        <location filename="../components/expand/eventMapConfig.py" line="144"/>
+        <location filename="../components/expand/eventMapConfig.py" line="141"/>
         <source>三星</source>
         <translation>サムスン</translation>
     </message>
     <message>
-        <location filename="../components/expand/eventMapConfig.py" line="146"/>
+        <location filename="../components/expand/eventMapConfig.py" line="143"/>
         <source>成就任务</source>
         <translation>アチーブメントクエスト</translation>
     </message>
@@ -1100,7 +1148,7 @@
     <message>
         <location filename="../components/expand/scriptConfig.py" line="24"/>
         <source>速度 nemu &gt;&gt; uiautomator2 ≈ adb, 
-推荐使用nemu并且如果使用nemu, 请设置&apos;模拟器地址&apos;为你MuMu模拟器路径, 精确到MuMuPlayer.exe</source>
+推荐使用nemu并且如果使用nemu, 请设置'模拟器地址'为你MuMu模拟器路径, 精确到MuMuPlayer.exe</source>
         <translation>速度 nemu &gt;&gt; uiautomator2 ≈ adb, 
 nemu の使用が推奨され、nemu を使用している場合は、「エミュレータ
  アドレス」を MuMu エミュレータ パスに正確に設定してくださいMuMuPlayer.exe</translation>
@@ -1151,17 +1199,17 @@ nemu の使用が推奨され、nemu を使用している場合は、「エミ�
         <translation>製造グレード</translation>
     </message>
     <message>
-        <location filename="../components/expand/createPriority.py" line="216"/>
+        <location filename="../components/expand/createPriority.py" line="217"/>
         <source>一级制造配置</source>
         <translation>レベル1製造構成</translation>
     </message>
     <message>
-        <location filename="../components/expand/createPriority.py" line="217"/>
+        <location filename="../components/expand/createPriority.py" line="218"/>
         <source>二级制造配置</source>
         <translation>レベル2製造構成</translation>
     </message>
     <message>
-        <location filename="../components/expand/createPriority.py" line="218"/>
+        <location filename="../components/expand/createPriority.py" line="219"/>
         <source>三级制造配置</source>
         <translation>レベル3製造構成</translation>
     </message>
@@ -1216,27 +1264,27 @@ nemu の使用が推奨され、nemu を使用している場合は、「エミ�
         <translation>材料選択</translation>
     </message>
     <message>
-        <location filename="../components/expand/createPriority.py" line="269"/>
+        <location filename="../components/expand/createPriority.py" line="265"/>
         <source>一键设置推荐优先级</source>
         <translation>ワンクリックで推奨優先度を設定</translation>
     </message>
     <message>
-        <location filename="../components/expand/createPriority.py" line="272"/>
+        <location filename="../components/expand/createPriority.py" line="268"/>
         <source>选择学生</source>
         <translation>学生選択</translation>
     </message>
     <message>
-        <location filename="../components/expand/createPriority.py" line="315"/>
+        <location filename="../components/expand/createPriority.py" line="311"/>
         <source>制造优先级</source>
         <translation>製造優先</translation>
     </message>
     <message>
-        <location filename="../components/expand/createPriority.py" line="329"/>
+        <location filename="../components/expand/createPriority.py" line="325"/>
         <source>修改成功</source>
         <translation>修正成功</translation>
     </message>
     <message>
-        <location filename="../components/expand/createPriority.py" line="329"/>
+        <location filename="../components/expand/createPriority.py" line="325"/>
         <source>推荐制造优先级</source>
         <translation>製造優先順位の推奨</translation>
     </message>
@@ -1259,97 +1307,97 @@ nemu の使用が推奨され、nemu を使用している場合は、「エミ�
 <context>
     <name>MainThread</name>
     <message>
-        <location filename="../fragments/home.py" line="337"/>
+        <location filename="../fragments/home.py" line="340"/>
         <source>停止</source>
         <translation>止める</translation>
     </message>
     <message>
-        <location filename="../fragments/home.py" line="341"/>
+        <location filename="../fragments/home.py" line="344"/>
         <source>启动</source>
         <translation>起動</translation>
     </message>
     <message>
-        <location filename="../fragments/home.py" line="265"/>
+        <location filename="../fragments/home.py" line="268"/>
         <source>困难图推图已完成</source>
         <translation>ハードステージがクリアしました</translation>
     </message>
     <message>
-        <location filename="../fragments/home.py" line="342"/>
+        <location filename="../fragments/home.py" line="345"/>
         <source>无任务</source>
         <translation>タスクなし</translation>
     </message>
     <message>
-        <location filename="../fragments/home.py" line="271"/>
+        <location filename="../fragments/home.py" line="274"/>
         <source>普通关推图</source>
         <translation>普通ステージをクリアする</translation>
     </message>
     <message>
-        <location filename="../fragments/home.py" line="274"/>
+        <location filename="../fragments/home.py" line="277"/>
         <source>普通图推图已完成</source>
         <translation>普通ステージがクリアしました</translation>
     </message>
     <message>
-        <location filename="../fragments/home.py" line="282"/>
+        <location filename="../fragments/home.py" line="285"/>
         <source>反和谐成功，请重启BA下载资源</source>
         <translation>アンチハーモニーが成功しました。BAを再起動してリソースをダウンロードしてください</translation>
     </message>
     <message>
-        <location filename="../fragments/home.py" line="286"/>
+        <location filename="../fragments/home.py" line="289"/>
         <source>自动主线剧情</source>
         <translation>本編プロットをクリアする</translation>
     </message>
     <message>
-        <location filename="../fragments/home.py" line="290"/>
+        <location filename="../fragments/home.py" line="293"/>
         <source>主线剧情已完成</source>
         <translation>本編プロットがクリアしました</translation>
     </message>
     <message>
-        <location filename="../fragments/home.py" line="296"/>
+        <location filename="../fragments/home.py" line="299"/>
         <source>自动小组剧情</source>
         <translation>グループプロットをクリアする</translation>
     </message>
     <message>
-        <location filename="../fragments/home.py" line="300"/>
+        <location filename="../fragments/home.py" line="303"/>
         <source>小组剧情已完成</source>
         <translation>グループストーリーがクリアしました</translation>
     </message>
     <message>
-        <location filename="../fragments/home.py" line="307"/>
+        <location filename="../fragments/home.py" line="310"/>
         <source>自动支线剧情</source>
         <translation>サブプロットをクリアする</translation>
     </message>
     <message>
-        <location filename="../fragments/home.py" line="310"/>
+        <location filename="../fragments/home.py" line="313"/>
         <source>支线剧情已完成</source>
         <translation>サブストーリーがクリアしました</translation>
     </message>
     <message>
-        <location filename="../fragments/home.py" line="317"/>
+        <location filename="../fragments/home.py" line="320"/>
         <source>自动活动剧情</source>
         <translation>イベントプロットをクリアする</translation>
     </message>
     <message>
-        <location filename="../fragments/home.py" line="320"/>
+        <location filename="../fragments/home.py" line="323"/>
         <source>活动剧情已完成</source>
         <translation>イベントプロットがクリアしました</translation>
     </message>
     <message>
-        <location filename="../fragments/home.py" line="327"/>
+        <location filename="../fragments/home.py" line="330"/>
         <source>自动活动任务</source>
         <translation>イベントタスクをクリアする</translation>
     </message>
     <message>
-        <location filename="../fragments/home.py" line="330"/>
+        <location filename="../fragments/home.py" line="333"/>
         <source>活动任务已完成</source>
         <translation>イベントタスクがクリアしました</translation>
     </message>
     <message>
-        <location filename="../fragments/home.py" line="336"/>
+        <location filename="../fragments/home.py" line="339"/>
         <source>自动活动挑战</source>
         <translation>イベント挑戦をクリアする</translation>
     </message>
     <message>
-        <location filename="../fragments/home.py" line="340"/>
+        <location filename="../fragments/home.py" line="343"/>
         <source>活动挑战推图已完成</source>
         <translation>イベントチャレンジがクリアしました</translation>
     </message>
@@ -1393,7 +1441,7 @@ nemu の使用が推奨され、nemu を使用している場合は、「エミ�
 <context>
     <name>ProcessFragment</name>
     <message>
-        <location filename="../fragments/process.py" line="25"/>
+        <location filename="../fragments/process.py" line="30"/>
         <source>调度状态</source>
         <translation>スケジュールステータス</translation>
     </message>
@@ -1403,7 +1451,7 @@ nemu の使用が推奨され、nemu を使用している場合は、「エミ�
         <translation>実行中</translation>
     </message>
     <message>
-        <location filename="../fragments/process.py" line="114"/>
+        <location filename="../fragments/process.py" line="113"/>
         <source>暂无正在执行的任务</source>
         <translation>進行中のタスクはない</translation>
     </message>
@@ -1413,7 +1461,7 @@ nemu の使用が推奨され、nemu を使用している場合は、「エミ�
         <translation>タスク隊列</translation>
     </message>
     <message>
-        <location filename="../fragments/process.py" line="116"/>
+        <location filename="../fragments/process.py" line="115"/>
         <source>暂无队列中的任务</source>
         <translation>隊列にタスクがない</translation>
     </message>
@@ -1449,7 +1497,7 @@ nemu の使用が推奨され、nemu を使用している場合は、「エミ�
 <context>
     <name>RenameDialogBox</name>
     <message>
-        <location filename="../../window.py" line="213"/>
+        <location filename="../../window.py" line="214"/>
         <source>配置详情</source>
         <translation>構成の詳細</translation>
     </message>
@@ -1457,22 +1505,22 @@ nemu の使用が推奨され、nemu を使用している場合は、「エミ�
 <context>
     <name>RenameDialogContext</name>
     <message>
-        <location filename="../../window.py" line="220"/>
+        <location filename="../../window.py" line="221"/>
         <source>原来的配置名称</source>
         <translation>元の構成の名前</translation>
     </message>
     <message>
-        <location filename="../../window.py" line="226"/>
+        <location filename="../../window.py" line="227"/>
         <source>修改后的配置名称</source>
         <translation>変更された構成の名前</translation>
     </message>
     <message>
-        <location filename="../../window.py" line="249"/>
+        <location filename="../../window.py" line="250"/>
         <source>确定</source>
         <translation>決定</translation>
     </message>
     <message>
-        <location filename="../../window.py" line="250"/>
+        <location filename="../../window.py" line="251"/>
         <source>取消</source>
         <translation>キャンセル</translation>
     </message>
@@ -1533,207 +1581,207 @@ nemu の使用が推奨され、nemu を使用している場合は、「エミ�
 <context>
     <name>SettingsFragment</name>
     <message>
-        <location filename="../fragments/settings.py" line="26"/>
+        <location filename="../fragments/settings.py" line="27"/>
         <source>普通设置</source>
         <translation>通常設定</translation>
     </message>
     <message>
-        <location filename="../fragments/settings.py" line="28"/>
+        <location filename="../fragments/settings.py" line="29"/>
         <source>基本</source>
         <translation>基本</translation>
     </message>
     <message>
-        <location filename="../fragments/settings.py" line="150"/>
+        <location filename="../fragments/settings.py" line="151"/>
         <source>语言</source>
         <translation>言語</translation>
     </message>
     <message>
-        <location filename="../fragments/settings.py" line="150"/>
+        <location filename="../fragments/settings.py" line="151"/>
         <source>设置界面的首选语言</source>
         <translation>画面の優先言語を設定する</translation>
     </message>
     <message>
-        <location filename="../fragments/settings.py" line="32"/>
+        <location filename="../fragments/settings.py" line="33"/>
         <source>应用相关设置</source>
         <translation>アプリ関連設定</translation>
     </message>
     <message>
-        <location filename="../fragments/settings.py" line="32"/>
+        <location filename="../fragments/settings.py" line="33"/>
         <source>选择你的服务器平台，设置你的端口（不知道端口请设置为0）</source>
         <translation>サーバーを選択し、ポートを設定します(ポートがわからない場合は、0に設定してください)</translation>
     </message>
     <message>
-        <location filename="../fragments/settings.py" line="40"/>
+        <location filename="../fragments/settings.py" line="41"/>
         <source>脚本相关设置</source>
         <translation>スクリプト関連設定</translation>
     </message>
     <message>
-        <location filename="../fragments/settings.py" line="40"/>
+        <location filename="../fragments/settings.py" line="41"/>
         <source>根据你的电脑配置，调整相应的参数。</source>
         <translation>PCの構成に応じてパラメータを調整します。</translation>
     </message>
     <message>
-        <location filename="../fragments/settings.py" line="48"/>
+        <location filename="../fragments/settings.py" line="49"/>
         <source>模拟器启动设置</source>
         <translation>エミュレータの起動設定</translation>
     </message>
     <message>
-        <location filename="../fragments/settings.py" line="48"/>
+        <location filename="../fragments/settings.py" line="49"/>
         <source>设置启动模拟器的路径</source>
         <translation>エミュレーターを起動するパスを設定する</translation>
     </message>
     <message>
-        <location filename="../fragments/settings.py" line="57"/>
+        <location filename="../fragments/settings.py" line="58"/>
         <source>相关设置</source>
         <translation>関連設定</translation>
     </message>
     <message>
-        <location filename="../fragments/settings.py" line="61"/>
+        <location filename="../fragments/settings.py" line="62"/>
         <source>普通图推图设置</source>
         <translation>普通ステージのクリアの設定</translation>
     </message>
     <message>
-        <location filename="../fragments/settings.py" line="61"/>
+        <location filename="../fragments/settings.py" line="62"/>
         <source>根据你的推图需求，调整相应的参数。</source>
         <translation>プッシュのニーズに応じて、対応するパラメータを調整します。</translation>
     </message>
     <message>
-        <location filename="../fragments/settings.py" line="69"/>
+        <location filename="../fragments/settings.py" line="70"/>
         <source>困难图推图设置</source>
         <translation>ハードステージのクリアの設定</translation>
     </message>
     <message>
-        <location filename="../fragments/settings.py" line="69"/>
+        <location filename="../fragments/settings.py" line="70"/>
         <source>根据你所需困难图刷关，设置参数。</source>
         <translation>必要な難易度に応じてパラメータを設定します。</translation>
     </message>
     <message>
-        <location filename="../fragments/settings.py" line="77"/>
+        <location filename="../fragments/settings.py" line="78"/>
         <source>推剧情</source>
         <translation>プロットをクリアする</translation>
     </message>
     <message>
-        <location filename="../fragments/settings.py" line="77"/>
+        <location filename="../fragments/settings.py" line="78"/>
         <source>主线剧情，小组剧情，支线剧情</source>
         <translation>本編プロット、グループプロット、サブプロット</translation>
     </message>
     <message>
-        <location filename="../fragments/settings.py" line="85"/>
+        <location filename="../fragments/settings.py" line="86"/>
         <source>活动图设置</source>
         <translation>イベントクリアの設定</translation>
     </message>
     <message>
-        <location filename="../fragments/settings.py" line="85"/>
+        <location filename="../fragments/settings.py" line="86"/>
         <source>推故事，推任务，推挑战</source>
         <translation>ストーリークリア、タスククリア、挑戦クリア</translation>
     </message>
     <message>
-        <location filename="../fragments/settings.py" line="93"/>
+        <location filename="../fragments/settings.py" line="94"/>
         <source>其他设置</source>
         <translation>その他の設定</translation>
     </message>
     <message>
-        <location filename="../fragments/settings.py" line="93"/>
+        <location filename="../fragments/settings.py" line="94"/>
         <source>其他的一些小功能与设置</source>
         <translation>その他の機能と設定</translation>
     </message>
     <message>
-        <location filename="../fragments/settings.py" line="101"/>
+        <location filename="../fragments/settings.py" line="102"/>
         <source>推送设置</source>
         <translation>配信設定</translation>
     </message>
     <message>
-        <location filename="../fragments/settings.py" line="101"/>
+        <location filename="../fragments/settings.py" line="102"/>
         <source>推送信息</source>
         <translation>配信メッセージ</translation>
     </message>
     <message>
-        <location filename="../fragments/settings.py" line="109"/>
+        <location filename="../fragments/settings.py" line="110"/>
         <source>图形用户界面</source>
         <translation>グラフィカルユーザーインターフェース</translation>
     </message>
     <message>
-        <location filename="../fragments/settings.py" line="112"/>
+        <location filename="../fragments/settings.py" line="113"/>
         <source>云母效果</source>
         <translation>マイカエフェクト</translation>
     </message>
     <message>
-        <location filename="../fragments/settings.py" line="112"/>
+        <location filename="../fragments/settings.py" line="113"/>
         <source>将半透明应用于窗口和表面</source>
         <translation>窓と表面に半透明性を適用する</translation>
     </message>
     <message>
-        <location filename="../fragments/settings.py" line="120"/>
+        <location filename="../fragments/settings.py" line="121"/>
         <source>应用主题</source>
         <translation>テーマを適用する</translation>
     </message>
     <message>
-        <location filename="../fragments/settings.py" line="120"/>
+        <location filename="../fragments/settings.py" line="121"/>
         <source>更改应用的外观</source>
         <translation>アプリの外観を変更する</translation>
     </message>
     <message>
-        <location filename="../fragments/settings.py" line="120"/>
+        <location filename="../fragments/settings.py" line="121"/>
         <source>浅色</source>
         <translation>軽い色</translation>
     </message>
     <message>
-        <location filename="../fragments/settings.py" line="120"/>
+        <location filename="../fragments/settings.py" line="121"/>
         <source>深色</source>
         <translation>暗色</translation>
     </message>
     <message>
-        <location filename="../fragments/settings.py" line="138"/>
+        <location filename="../fragments/settings.py" line="139"/>
         <source>使用系统设置</source>
         <translation>システム設定を使用する</translation>
     </message>
     <message>
-        <location filename="../fragments/settings.py" line="131"/>
+        <location filename="../fragments/settings.py" line="132"/>
         <source>主题颜色</source>
         <translation>テーマの色</translation>
     </message>
     <message>
-        <location filename="../fragments/settings.py" line="131"/>
+        <location filename="../fragments/settings.py" line="132"/>
         <source>更改应用的主题颜色</source>
         <translation>アプリのテーマの色を変更する</translation>
     </message>
     <message>
-        <location filename="../fragments/settings.py" line="138"/>
+        <location filename="../fragments/settings.py" line="139"/>
         <source>界面缩放</source>
         <translation>インターフェースズーム</translation>
     </message>
     <message>
-        <location filename="../fragments/settings.py" line="138"/>
+        <location filename="../fragments/settings.py" line="139"/>
         <source>更改小部件和字体的大小</source>
         <translation>ウィジェットとフォントのサイズを変更する</translation>
     </message>
     <message>
-        <location filename="../fragments/settings.py" line="215"/>
+        <location filename="../fragments/settings.py" line="211"/>
         <source>更新成功</source>
         <translation>更新は成功しました</translation>
     </message>
     <message>
-        <location filename="../fragments/settings.py" line="215"/>
+        <location filename="../fragments/settings.py" line="211"/>
         <source>配置将在重新启动后生效</source>
         <translation>この設定は、再起動後に有効になります</translation>
     </message>
     <message>
-        <location filename="../fragments/settings.py" line="159"/>
+        <location filename="../fragments/settings.py" line="160"/>
         <source>配置界面模式</source>
         <translation>画面モード設定</translation>
     </message>
     <message>
-        <location filename="../fragments/settings.py" line="159"/>
+        <location filename="../fragments/settings.py" line="160"/>
         <source>设置配置界面模式</source>
         <translation>設定構成インターフェースモード</translation>
     </message>
     <message>
-        <location filename="../fragments/settings.py" line="168"/>
+        <location filename="../fragments/settings.py" line="169"/>
         <source>卡片显示模式</source>
         <translation>カード表示モード</translation>
     </message>
     <message>
-        <location filename="../fragments/settings.py" line="168"/>
+        <location filename="../fragments/settings.py" line="169"/>
         <source>卡片是否显示精美图片</source>
         <translation>カードに美しい画像を表示するかどうか</translation>
     </message>
@@ -1799,12 +1847,12 @@ nemu の使用が推奨され、nemu を使用している場合は、「エミ�
 <context>
     <name>SwitchFragment</name>
     <message>
-        <location filename="../fragments/switch.py" line="52"/>
+        <location filename="../fragments/switch.py" line="53"/>
         <source>Configuration Settings</source>
         <translation>設定</translation>
     </message>
     <message>
-        <location filename="../fragments/switch.py" line="216"/>
+        <location filename="../fragments/switch.py" line="227"/>
         <source>Features</source>
         <translation>特徴</translation>
     </message>
@@ -1830,37 +1878,37 @@ nemu の使用が推奨され、nemu を使用している場合は、「エミ�
 <context>
     <name>Window</name>
     <message>
-        <location filename="../../window.py" line="474"/>
+        <location filename="../../window.py" line="475"/>
         <source>主页</source>
         <translation>ホーム</translation>
     </message>
     <message>
-        <location filename="../../window.py" line="475"/>
+        <location filename="../../window.py" line="476"/>
         <source>调度</source>
         <translation>スケジュール</translation>
     </message>
     <message>
-        <location filename="../../window.py" line="476"/>
+        <location filename="../../window.py" line="477"/>
         <source>配置</source>
         <translation>構成</translation>
     </message>
     <message>
-        <location filename="../../window.py" line="477"/>
+        <location filename="../../window.py" line="478"/>
         <source>设置</source>
         <translation>設定</translation>
     </message>
     <message>
-        <location filename="../../window.py" line="557"/>
+        <location filename="../../window.py" line="560"/>
         <source>设置失败</source>
         <translation>セットアップ失敗</translation>
     </message>
     <message>
-        <location filename="../../window.py" line="588"/>
+        <location filename="../../window.py" line="592"/>
         <source>是否要删除配置：</source>
         <translation>設定を削除しますか：</translation>
     </message>
     <message>
-        <location filename="../../window.py" line="589"/>
+        <location filename="../../window.py" line="593"/>
         <source>你需要在确认后重启BAAS以完成更改。</source>
         <translation>変更を完了するには、確認後に BAAS を再起動する必要があります。</translation>
     </message>
@@ -1868,7 +1916,7 @@ nemu の使用が推奨され、nemu を使用している場合は、「エミ�
 <context>
     <name>bt</name>
     <message>
-        <location filename="../../window.py" line="235"/>
+        <location filename="../../window.py" line="236"/>
         <source>ConfigTranslation</source>
         <translation>構成の翻訳</translation>
     </message>
@@ -1890,12 +1938,12 @@ nemu の使用が推奨され、nemu を使用している場合は、「エミ�
         <translation>実行</translation>
     </message>
     <message>
-        <location filename="../fragments/home.py" line="162"/>
+        <location filename="../fragments/home.py" line="163"/>
         <source>MainThread</source>
         <translation>メイン・トレッド</translation>
     </message>
     <message>
-        <location filename="../fragments/home.py" line="164"/>
+        <location filename="../fragments/home.py" line="165"/>
         <source>MainThread</source>
         <comment>停止</comment>
         <translation>メイン・トレッド</translation>
@@ -1922,7 +1970,7 @@ nemu の使用が推奨され、nemu を使用している場合は、「エミ�
 <context>
     <name>helpModal</name>
     <message>
-        <location filename="../../window.py" line="516"/>
+        <location filename="../../window.py" line="517"/>
         <source>帮助</source>
         <translation>ヘルプ</translation>
     </message>

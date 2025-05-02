@@ -5,6 +5,7 @@ from qfluentwidgets import ComboBox
 
 from .expandTemplate import TemplateLayout
 from PyQt5.QtCore import QObject
+from gui.util.translator import baasTranslator as bt
 
 
 class Layout(TemplateLayout):
@@ -35,6 +36,7 @@ class Layout(TemplateLayout):
             }
         ]
         for item in drill_detail_config:
+            item["label"] = bt.tr("DrillConfig", item["label"])
             self.vBoxLayout.addLayout(self.create_split_selection(**item))
 
     def create_split_selection(self, **kwargs):
