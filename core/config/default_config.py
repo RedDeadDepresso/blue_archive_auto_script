@@ -357,6 +357,7 @@ DEFAULT_CONFIG = """
     "push_after_completion":false,
     "push_json":"",
     "push_serverchan":"",
+    "cafe_reward_affection_pat_round": 4,
     "cafe_reward_lowest_affection_first": true,
     "cafe_reward_invite1_criterion" : "starred",
     "favorStudent1": [
@@ -403,8 +404,8 @@ DEFAULT_CONFIG = """
         ["primary","normal","advanced","superior"]
     ],
     "purchase_lesson_ticket_times": "0",
-    "explore_normal_task_list": [],
-    "explore_hard_task_list": [],
+    "explore_normal_task_list": "",
+    "explore_hard_task_list": "",
     "emulatorIsMultiInstance": false,
     "emulatorMultiInstanceNumber": 0,
     "multiEmulatorName": "mumu",
@@ -579,12 +580,12 @@ STATIC_DEFAULT_CONFIG = '''
 {
     "main_story_final_episode_num": 6,
     "main_story_available_episodes": {
-        "CN": [2, 3, 4, 5, 6],
+        "CN": [2, 3, 4, 5, 6, 7],
         "Global": [1, 2, 3, 4, 5, 6, 7, 8],
         "JP": [1, 2, 3, 4, 5, 6, 7, 8]
     },
     "max_region": {
-        "CN": 23,
+        "CN": 24,
         "Global": 27,
         "JP": 28
     },
@@ -3328,7 +3329,8 @@ STATIC_DEFAULT_CONFIG = '''
           "崔尼蒂广场区",
           "红冬联邦学院",
           "百鬼夜行中心",
-          "D.U.白鸟区"
+          "D.U.白鸟区",
+          "山海经中央特区"
           ],
       "Global_en-us": [
           "Schale Office",
@@ -3384,9 +3386,9 @@ STATIC_DEFAULT_CONFIG = '''
         ]
     },
     "current_game_activity": {
-        "CN": "GetSetGoKivotosHaloGames",
-        "Global": "SunlightGirlsNightSong",
-        "JP": "LivelyandBusily"
+        "CN": null,
+        "Global": null,
+        "JP": "JP_2025_06_25"
     },
     "dailyGameActivity": {
         "CN": null,

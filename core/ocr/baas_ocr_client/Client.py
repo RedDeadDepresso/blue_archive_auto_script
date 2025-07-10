@@ -119,10 +119,10 @@ class BaasOcrClient:
             try:
                 requests.get(self.config.base_url)
                 break
-            except requests.exceptions.ConnectionError:
+            except requests.exceptions.ConnectionError as e:
+                if _ == 29:
+                    raise RuntimeError("Fail to start ocr server. " + e.__str__())
                 time.sleep(0.1)
-        else:
-            raise RuntimeError("Fail to start server.")
 
     def stop_server(self):
         self.server_process.stdin.write("exit\n")
@@ -248,14 +248,6 @@ class BaasOcrClient:
                 "pass_method": pass_method,
             },
         }
-        url = self.config.base_url + "/ocr_for_single_line"
-        data = {
-            "language": language,
-            "candidates": candidates,
-            "image": {
-                "pass_method": pass_method,
-            },
-        }
         self.get_request_data(data, pass_method, origin_image, local_path, shared_memory_name)
         if pass_method in [0, 2]:
             return requests.post(url, json=data)
@@ -266,7 +258,7 @@ class BaasOcrClient:
                 "image": ("image.png", image_bytes, "image/png")
             }
             return requests.post(url, files=files)
-        
+
     @staticmethod
     def get_image_bytes(image):
         _, encoded_image = cv2.imencode('.png', image)

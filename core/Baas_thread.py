@@ -7,19 +7,20 @@ import time
 import traceback
 from dataclasses import fields
 from datetime import datetime
-from core.utils import Logger
+
 import cv2
 import numpy as np
 import psutil
 import requests
 
 import module.ExploreTasks.explore_task
-from core.device import emulator_manager
-from core import position, picture
+from core import position, picture, utils
 from core.config.config_set import ConfigSet
+from core.device import emulator_manager
 from core.device.Control import Control
 from core.device.Screenshot import Screenshot
 from core.device.connection import Connection
+from core.device.emulator_manager import process_api
 from core.device.uiautomator2_client import BAAS_U2_Initer, __atx_agent_version__
 from core.device.uiautomator2_client import U2Client
 from core.exception import RequestHumanTakeOver, FunctionCallTimeout, PackageIncorrect, LogTraceback
@@ -27,7 +28,6 @@ from core.notification import notify, toast
 from core.pushkit import push
 from core.scheduler import Scheduler
 from core.utils import Logger
-from core.device.emulator_manager import process_api
 
 func_dict = {
     'group': module.group.implement,
@@ -48,8 +48,8 @@ func_dict = {
     'mini_story': module.mini_story.implement,
     'scrimmage': module.scrimmage.implement,
     'collect_reward': module.collect_reward.implement,
-    'normal_task': module.normal_task.implement,
-    'hard_task': module.hard_task.implement,
+    'normal_task': module.ExploreTasks.sweep_task.sweep_normal_task,
+    'hard_task': module.ExploreTasks.sweep_task.sweep_hard_task,
     'clear_special_task_power': module.clear_special_task_power.implement,
     'de_clothes': module.de_clothes.implement,
     'tactical_challenge_shop': module.tactical_challenge_shop.implement,
@@ -98,7 +98,7 @@ class Baas_thread:
         self.task_finish_to_main_page = False
         self.static_config = ConfigSet.static_config
         self.ocr = None
-        self.logger = Logger(logger_signal)
+        self.logger = utils.Logger(logger_signal)
         self.last_refresh_u2_time = 0
         self.latest_img_array = None
         self.total_assault_difficulty_names = ["NORMAL", "HARD", "VERYHARD", "HARDCORE", "EXTREME", "INSANE", "TORMENT"]
@@ -185,7 +185,7 @@ class Baas_thread:
 
     def convert_lnk_to_exe(self, lnk_path):
         """
-        判断program_addrsss是否为lnk文件，如果是则转换为exe文件地址存入config文件
+        Convert a Windows shortcut (.lnk) to the target executable path.
         """
         if lnk_path.endswith(".lnk"):
             try:
@@ -201,12 +201,11 @@ class Baas_thread:
 
     def extract_filename_and_extension(self):
         """
-        从可能包含启动参数的路径中提取文件名和扩展名
+        Extract the filename and extension from a file path, specifically for .exe and .lnk files.
         """
-        # 预定义特定的文件扩展名列表
+        # target specific extensions
         specific_extensions = [".exe", ".lnk"]
 
-        # 找到最后一个文件扩展名的位置
         last_extension_pos = -1
         for ext in specific_extensions:
             pos = self.file_path.lower().rfind(ext)
@@ -214,24 +213,21 @@ class Baas_thread:
                 last_extension_pos = pos
 
         if last_extension_pos == -1:
-            # 如果没有找到文件扩展名，返回整个输入
             return self.file_path.strip()
 
-        # 从文件扩展名的位置往前找到完整路径
-        end_of_path = last_extension_pos + len(specific_extensions[0])  # 加上扩展名的长度
+        end_of_path = last_extension_pos + len(specific_extensions[0])
         actual_path = self.file_path[:end_of_path]
 
-        # 获取文件名和扩展名
+        # get the file name with extension
         file_name_with_extension = os.path.basename(actual_path)
 
         return file_name_with_extension
 
     def check_process_running(self, process_name):
         """
-        检测指定名称的进程是否正在运行
+        Check if a process with the given name is running.
         """
         for proc in psutil.process_iter(['pid', 'name']):
-            # self.logger.debug(f"Checking if process {process_name} is running...")
             if proc.info['name'] == process_name:
                 return True
         return False
@@ -571,6 +567,7 @@ class Baas_thread:
             'main_page_daily-attendance': (640, 360),
             'main_page_item-expire': (925, 119),
             'main_page_skip-notice': (762, 507),
+            'draw-card-point-exchange-to-stone-piece-notice': (933, 155),
             'normal_task_fight-end-back-to-main-page': (511, 662),
             "main_page_enter-existing-fight": (514, 501),
             'main_page_login-feature': (640, 360),
@@ -842,8 +839,8 @@ class Baas_thread:
         last_refresh_hour = last_refresh.hour
         daily_reset = 4 - (self.server == 'JP' or self.server == 'Global')
         if now.day == last_refresh.day and now.year == last_refresh.year and now.month == last_refresh.month and \
-                ((hour < daily_reset and last_refresh_hour < daily_reset) or (
-                        hour >= daily_reset and last_refresh_hour >= daily_reset)):
+            ((hour < daily_reset and last_refresh_hour < daily_reset) or (
+                hour >= daily_reset and last_refresh_hour >= daily_reset)):
             return
         else:
             self.config.last_refresh_config_time = time.time()
@@ -859,29 +856,27 @@ class Baas_thread:
         self.config_set.config.alreadyCreateTime = 0
 
     def refresh_common_tasks(self):
-        from module.normal_task import readOneNormalTask
+        from module.ExploreTasks.sweep_task import read_task
         temp = self.config.mainlinePriority
         self.config.unfinished_normal_tasks = []
         if type(temp) is str:
             temp = temp.split(',')
         for i in range(0, len(temp)):
             try:
-                self.config.unfinished_normal_tasks.append(
-                    readOneNormalTask(temp[i], self.static_config.explore_normal_task_region_range))
+                self.config.unfinished_normal_tasks.append(read_task(temp[i], True))
             except Exception as e:
                 self.logger.error(e.__str__())
         self.config_set.set("unfinished_normal_tasks", self.config.unfinished_normal_tasks)
 
     def refresh_hard_tasks(self):
-        from module.hard_task import readOneHardTask
+        from module.ExploreTasks.sweep_task import read_task
         self.config.unfinished_hard_tasks = []
         temp = self.config.hardPriority
         if type(temp) is str:
             temp = temp.split(',')
         for i in range(0, len(temp)):
             try:
-                self.config.unfinished_hard_tasks.append(
-                    readOneHardTask(temp[i], self.static_config.explore_hard_task_region_range))
+                self.config.unfinished_hard_tasks.append(read_task(temp[i], False))
             except Exception as e:
                 self.logger.error(e.__str__())
         self.config_set.set("unfinished_hard_tasks", self.config.unfinished_hard_tasks)

@@ -46,6 +46,7 @@ class Config:
     push_after_completion: bool
     push_json: str
     push_serverchan: str
+    cafe_reward_affection_pat_round: int
     cafe_reward_lowest_affection_first: bool
     cafe_reward_invite1_criterion: str
     favorStudent1: list
@@ -70,8 +71,8 @@ class Config:
     lesson_relationship_first: bool
     lesson_each_region_object_priority: list
     purchase_lesson_ticket_times: str
-    explore_normal_task_list: list
-    explore_hard_task_list: list
+    explore_normal_task_list: str
+    explore_hard_task_list: str
     emulatorIsMultiInstance: bool
     emulatorMultiInstanceNumber: int
     multiEmulatorName: str
