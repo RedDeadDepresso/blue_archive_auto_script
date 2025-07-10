@@ -22,6 +22,6 @@ QWidget {
     border-radius: 10px;
 }
 
-StrongBodyLabel, TitleLabel, SubtitleLabel, CaptionLabel {
+StrongBodyLabel, TitleLabel, SubtitleLabel, CaptionLabel, QLabel {
     color: white
 }
