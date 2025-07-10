@@ -119,7 +119,8 @@ def gift_to_cafe(self):
 def interaction_for_cafe_solve_method3(self):
     self.u2().pinch_in(percent=50, steps=30)
     self.swipe(709, 558, 709, 309, duration=0.2)
-    max_times = 4
+    max_times = self.config.cafe_reward_affection_pat_round
+    self.logger.info("Pat Round : [ " + str(max_times) + " ]")
     for i in range(0, max_times):
         cafe_to_gift(self)
         shotDelay = self.config.cafe_reward_interaction_shot_delay
@@ -203,6 +204,7 @@ def to_invitation_ticket(self, skip_first_screenshot=False):
         'cafe_duplicate-invite-notice': (534, 497),
         'cafe_switch-clothes-notice': (534, 497),
         'cafe_duplicate-invite': (534, 497),
+        'cafe_students-arrived': (922, 189)
     }
     return picture.co_detect(self, None, None, img_end, img_possible, skip_first_screenshot)
 
@@ -319,6 +321,7 @@ def confirm_invite(self):
         "cafe_duplicate-invite": (767, 514),
         "cafe_switch-clothes-notice": (764, 501),
         "cafe_duplicate-invite-notice": (764, 514),
+        "cafe_students-arrived": (922, 189)
     }
     img_ends = "cafe_menu"
     picture.co_detect(self, None, None, img_ends, img_possibles, True)
