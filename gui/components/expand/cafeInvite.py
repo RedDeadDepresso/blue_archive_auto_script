@@ -102,7 +102,7 @@ class Layout(QWidget):
     def create_cafe_mode_sel(self, cafe_no):
         cur_mode = getattr(self, f"cafe_reward_invite{cafe_no}_criterion")
         mode_select_layout = QHBoxLayout()
-        mode_select_label = QLabel(self.tr(f'咖啡厅 {cafe_no} 邀请券选择模式：'))
+        mode_select_label = QLabel(self.tr(f'咖啡厅 ') + str(cafe_no) + self.tr(' 邀请券选择模式：'))
         mode_select = ComboBox()
         mode_select.addItems(self.name_dict.keys())
         mode_select.setCurrentText(self.name_dict_rev[cur_mode])

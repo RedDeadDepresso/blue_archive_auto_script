@@ -88,7 +88,11 @@ def swipe_get_y_diff(self, item_lines_y):
     search_area_y_max = template_y_max + 30
     area = (629, template_y_min, 1228, template_y_max)
     tar_img = image.screenshot_cut(self, area)
+<<<<<<< Updated upstream
     self.swipe(616, 594, 616, 447, duration=0.05 if self.is_android_device else 0.5, post_sleep_time=1)
+=======
+    self.swipe(1246, 594, 1246, 447, duration=0.05 if self.is_android_device else 0.5, post_sleep_time=1)
+>>>>>>> Stashed changes
     self.update_screenshot_array()
     position = image.search_image_in_area(self,
                                           tar_img,

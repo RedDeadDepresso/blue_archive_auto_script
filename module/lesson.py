@@ -309,6 +309,12 @@ def get_lesson_relationship_counts(self):
                (443, 441), (787, 441), (1132, 441),
                (443, 591), (787, 591), (1132, 591)],
         'Global': [(354, 271), (701, 271), (1043, 271),
+<<<<<<< Updated upstream
+=======
+               (354, 422), (701, 422), (1043, 422),
+               (354, 574), (701, 574), (1043, 574)],
+        'JP': [(354, 271), (701, 271), (1043, 271),
+>>>>>>> Stashed changes
                (354, 422), (701, 422), (1043, 422),
                (354, 574), (701, 574), (1043, 574)],
         'JP': [(357, 295), (700, 295), (1043, 295),
@@ -325,7 +331,11 @@ def get_lesson_relationship_counts(self):
         'Global': [223, 255, 164, 224, 190, 230],
         'JP': [223, 255, 164, 224, 190, 230]
     }
+<<<<<<< Updated upstream
     if self.server in ['Global']:
+=======
+    if self.server in ['Global', 'JP']:
+>>>>>>> Stashed changes
         self.swipe(983, 588, 983, 466, duration=0.2 if self.is_android_device else 0.5, post_sleep_time=0.5)
         self.update_screenshot_array()
     rgb_range = rgb_range[self.server]
@@ -361,6 +371,10 @@ def get_lesson_each_region_status(self):
     elif self.server in ['Global', 'JP']:
         return global_jp_get_lesson_each_region_status(self)
 
+<<<<<<< Updated upstream
+=======
+
+>>>>>>> Stashed changes
 def cn_get_lesson_each_region_status(self):
     pd_lo = [[289, 204], [643, 204], [985, 204],
              [289, 359], [643, 359], [985, 359],
@@ -382,6 +396,7 @@ def cn_get_lesson_each_region_status(self):
 
 
 def global_jp_get_lesson_each_region_status(self):
+<<<<<<< Updated upstream
     y_list = [204, 359, 511]
     if self.server in ['JP']:
         y_list = [238, 391, 543]
@@ -389,6 +404,11 @@ def global_jp_get_lesson_each_region_status(self):
     pd_lo = [[289,  y_list[0]], [643,  y_list[0]], [985,  y_list[0]],
              [289,  y_list[1]], [643,  y_list[1]], [985,  y_list[1]],
              [289,  y_list[2]], [643,  y_list[2]], [985,  y_list[2]]]
+=======
+    pd_lo = [[289, 204], [643, 204], [985, 204],
+             [289, 359], [643, 359], [985, 359],
+             [289, 511], [643, 511], [985, 511]]
+>>>>>>> Stashed changes
     res = []
     for i in range(0, 9):
         if color.rgb_in_range(self, pd_lo[i][0], pd_lo[i][1], 250, 255, 250, 255, 250, 255):

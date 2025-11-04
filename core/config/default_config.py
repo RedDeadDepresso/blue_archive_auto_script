@@ -3525,9 +3525,15 @@ STATIC_DEFAULT_CONFIG = '''
         ]
     },
     "current_game_activity": {
+<<<<<<< Updated upstream
         "CN": "LivelyandBusily",
         "Global": "PandemicHazardAMiraclePancake",
         "JP": "JP_2025_10_22"
+=======
+        "CN": "BaskingInTheBrillianceOfTheirSerenade",
+        "Global": "PandemicHazardAMiraclePancake",
+        "JP": "SayBing"
+>>>>>>> Stashed changes
     },
     "dailyGameActivity": {
         "CN": null,

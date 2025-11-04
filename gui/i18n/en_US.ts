@@ -6,7 +6,11 @@
     <message>
         <location filename="../util/customized_ui.py" line="267"/>
         <source>体力</source>
+<<<<<<< Updated upstream
         <translation>Power</translation>
+=======
+        <translation>AP</translation>
+>>>>>>> Stashed changes
     </message>
     <message>
         <location filename="../util/customized_ui.py" line="273"/>
@@ -16,17 +20,29 @@
     <message>
         <location filename="../util/customized_ui.py" line="279"/>
         <source>青辉石</source>
+<<<<<<< Updated upstream
         <translation>Pyroxene</translation>
+=======
+        <translation>Pyroxenes</translation>
+>>>>>>> Stashed changes
     </message>
     <message>
         <location filename="../util/customized_ui.py" line="285"/>
         <source>竞技币</source>
+<<<<<<< Updated upstream
         <translation>Athletic coins</translation>
+=======
+        <translation>TC coins</translation>
+>>>>>>> Stashed changes
     </message>
     <message>
         <location filename="../util/customized_ui.py" line="303"/>
         <source>拱心石</source>
+<<<<<<< Updated upstream
         <translation>Keystone</translation>
+=======
+        <translation>Keystones</translation>
+>>>>>>> Stashed changes
     </message>
     <message>
         <location filename="../util/customized_ui.py" line="540"/>
@@ -61,23 +77,34 @@
     <message>
         <location filename="../util/customized_ui.py" line="291"/>
         <source>悬赏委托币</source>
+<<<<<<< Updated upstream
         <translation>Reward delegated coins</translation>
+=======
+        <translation>Bounty Coins</translation>
+>>>>>>> Stashed changes
     </message>
     <message>
         <location filename="../util/customized_ui.py" line="297"/>
         <source>拱心石碎片</source>
         <translation>Keystone fragments</translation>
+<<<<<<< Updated upstream
     </message>
     <message>
         <location filename="../util/customized_ui.py" line="321"/>
         <source>通行证</source>
         <translation>pass</translation>
+=======
+>>>>>>> Stashed changes
     </message>
 </context>
 <context>
     <name>BAASLangAltButton</name>
     <message>
+<<<<<<< Updated upstream
         <location filename="../../window.py" line="307"/>
+=======
+        <location filename="../../window.py" line="322"/>
+>>>>>>> Stashed changes
         <source>语言设置</source>
         <translation>Language settings</translation>
     </message>
@@ -85,7 +112,11 @@
 <context>
     <name>BAASTabItem</name>
     <message>
+<<<<<<< Updated upstream
         <location filename="../../window.py" line="250"/>
+=======
+        <location filename="../../window.py" line="264"/>
+>>>>>>> Stashed changes
         <source>重命名</source>
         <translation>Rename</translation>
     </message>
@@ -93,12 +124,20 @@
 <context>
     <name>BAASTitleBar</name>
     <message>
+<<<<<<< Updated upstream
         <location filename="../../window.py" line="360"/>
+=======
+        <location filename="../../window.py" line="375"/>
+>>>>>>> Stashed changes
         <source>帮助</source>
         <translation>Help</translation>
     </message>
     <message>
+<<<<<<< Updated upstream
         <location filename="../../window.py" line="356"/>
+=======
+        <location filename="../../window.py" line="371"/>
+>>>>>>> Stashed changes
         <source>更新日志</source>
         <translation>Changelog</translation>
     </message>
@@ -350,6 +389,7 @@ make sure to do it before starting the script.</translation>
         <location filename="../util/config_translation.py" line="91"/>
         <source>静子神明文字x5</source>
         <translation>Shizuko&apos;s Eleph</translation>
+<<<<<<< Updated upstream
     </message>
     <message>
         <location filename="../util/config_translation.py" line="92"/>
@@ -373,6 +413,31 @@ make sure to do it before starting the script.</translation>
     </message>
     <message>
         <location filename="../util/config_translation.py" line="96"/>
+=======
+    </message>
+    <message>
+        <location filename="../util/config_translation.py" line="96"/>
+        <source>真白神明文字x5</source>
+        <translation>Mashiro&apos;s Eleph</translation>
+    </message>
+    <message>
+        <location filename="../util/config_translation.py" line="97"/>
+        <source>纱绫神明文字x5</source>
+        <translation>Saya&apos;s Eleph</translation>
+    </message>
+    <message>
+        <location filename="../util/config_translation.py" line="98"/>
+        <source>风香神明文字x5</source>
+        <translation>Fuuka&apos;s Eleph</translation>
+    </message>
+    <message>
+        <location filename="../util/config_translation.py" line="99"/>
+        <source>歌原神明文字x5</source>
+        <translation>Utaha&apos;s Eleph</translation>
+    </message>
+    <message>
+        <location filename="../util/config_translation.py" line="100"/>
+>>>>>>> Stashed changes
         <source>初级经验书x5</source>
         <translation>Normal Report x5</translation>
     </message>
@@ -792,36 +857,53 @@ make sure to do it before starting the script.</translation>
         <translation>Blue Archive Auto Script</translation>
     </message>
     <message>
+<<<<<<< Updated upstream
         <location filename="../fragments/home.py" line="53"/>
+=======
+        <location filename="../fragments/home.py" line="50"/>
+>>>>>>> Stashed changes
         <source>无任务</source>
         <translation>No task</translation>
     </message>
     <message>
-        <location filename="../fragments/home.py" line="68"/>
+        <location filename="../fragments/home.py" line="67"/>
         <source>启动</source>
         <translation>Start</translation>
     </message>
     <message>
-        <location filename="../fragments/home.py" line="68"/>
+        <location filename="../fragments/home.py" line="67"/>
         <source>档案，启动</source>
         <translation>BlueArchive, Launch</translation>
     </message>
     <message>
+<<<<<<< Updated upstream
         <location filename="../fragments/home.py" line="257"/>
+=======
+        <location filename="../fragments/home.py" line="212"/>
+>>>>>>> Stashed changes
         <source>开始你的档案之旅</source>
         <translation>Start Script</translation>
     </message>
     <message>
+<<<<<<< Updated upstream
         <location filename="../fragments/home.py" line="200"/>
+=======
+        <location filename="../fragments/home.py" line="152"/>
+>>>>>>> Stashed changes
         <source>正在运行：</source>
         <translation>Running:</translation>
     </message>
     <message>
+<<<<<<< Updated upstream
         <location filename="../fragments/home.py" line="257"/>
+=======
+        <location filename="../fragments/home.py" line="212"/>
+>>>>>>> Stashed changes
         <source>完成后</source>
         <translation>Then</translation>
     </message>
     <message>
+<<<<<<< Updated upstream
         <location filename="../fragments/home.py" line="77"/>
         <source>资产显示：开</source>
         <translation>Asset display: On</translation>
@@ -835,6 +917,16 @@ make sure to do it before starting the script.</translation>
         <location filename="../fragments/home.py" line="130"/>
         <source>启停快捷键</source>
         <translation>Start-stop shortcut</translation>
+=======
+        <location filename="../fragments/home.py" line="76"/>
+        <source>资产显示：开</source>
+        <translation>Asset Display: On</translation>
+    </message>
+    <message>
+        <location filename="../fragments/home.py" line="77"/>
+        <source>资产显示：关</source>
+        <translation>Asset Display: Off</translation>
+>>>>>>> Stashed changes
     </message>
 </context>
 <context>
@@ -1246,11 +1338,14 @@ set the &apos;emulator address&apos; to your MuMu emulator path, accurate to MuM
         <translation>It is only guaranteed that there will be no problems with using uiautomator2</translation>
     </message>
     <message>
+<<<<<<< Updated upstream
         <location filename="../components/expand/cafeInvite.py" line="105"/>
         <source>咖啡厅 {cafe_no} 邀请券选择模式：</source>
         <translation>Cafe {cafe_no} Invitation Ticket Selection Mode:</translation>
     </message>
     <message>
+=======
+>>>>>>> Stashed changes
         <location filename="../components/expand/cafeInvite.py" line="146"/>
         <source>选择收藏学生的序号</source>
         <translation>Select the serial number of the favorite student</translation>
@@ -1423,7 +1518,11 @@ set the &apos;emulator address&apos; to your MuMu emulator path, accurate to MuM
     <message>
         <location filename="../components/expand/formationConfig.py" line="15"/>
         <source>贯穿</source>
+<<<<<<< Updated upstream
         <translation>Pierce</translation>
+=======
+        <translation>Piercing</translation>
+>>>>>>> Stashed changes
     </message>
     <message>
         <location filename="../components/expand/formationConfig.py" line="16"/>
@@ -1438,7 +1537,11 @@ set the &apos;emulator address&apos; to your MuMu emulator path, accurate to MuM
     <message>
         <location filename="../components/expand/formationConfig.py" line="18"/>
         <source>未使用</source>
+<<<<<<< Updated upstream
         <translation>Not used</translation>
+=======
+        <translation>Unused</translation>
+>>>>>>> Stashed changes
     </message>
     <message>
         <location filename="../components/expand/formationConfig.py" line="28"/>
@@ -1765,101 +1868,197 @@ set the &apos;emulator address&apos; to your MuMu emulator path, accurate to MuM
         <source>制造石</source>
         <translation>Crafting stone</translation>
     </message>
+    <message>
+        <location filename="../components/expand/cafeInvite.py" line="71"/>
+        <source>摸头轮数 (轮数越高越不会漏摸): </source>
+        <translation type="unfinished">Number of head pats (the higher the number, the less likely to miss a pat):</translation>
+    </message>
+    <message>
+        <location filename="../components/expand/cafeInvite.py" line="79"/>
+        <source>选择摸头方式: </source>
+        <translation type="unfinished">Choose a way to pet the head:</translation>
+    </message>
+    <message>
+        <location filename="../components/expand/cafeInvite.py" line="105"/>
+        <source>咖啡厅 </source>
+        <translation type="unfinished">Café</translation>
+    </message>
+    <message>
+        <location filename="../components/expand/cafeInvite.py" line="105"/>
+        <source> 邀请券选择模式：</source>
+        <translation type="unfinished">Invitation ticket selection mode:</translation>
+    </message>
 </context>
 <context>
     <name>MainThread</name>
     <message>
+<<<<<<< Updated upstream
         <location filename="../fragments/home.py" line="423"/>
+=======
+        <location filename="../fragments/home.py" line="369"/>
+>>>>>>> Stashed changes
         <source>停止</source>
         <translation>Stop</translation>
     </message>
     <message>
+<<<<<<< Updated upstream
         <location filename="../fragments/home.py" line="429"/>
+=======
+        <location filename="../fragments/home.py" line="375"/>
+>>>>>>> Stashed changes
         <source>启动</source>
         <translation>Start</translation>
     </message>
     <message>
+<<<<<<< Updated upstream
         <location filename="../fragments/home.py" line="337"/>
+=======
+        <location filename="../fragments/home.py" line="283"/>
+>>>>>>> Stashed changes
         <source>困难图推图已完成</source>
         <translation>Clear Hard Mission completed</translation>
     </message>
     <message>
+<<<<<<< Updated upstream
         <location filename="../fragments/home.py" line="349"/>
+=======
+        <location filename="../fragments/home.py" line="295"/>
+>>>>>>> Stashed changes
         <source>普通图推图已完成</source>
         <translation>Clear Normal Mission completed</translation>
     </message>
     <message>
+<<<<<<< Updated upstream
         <location filename="../fragments/home.py" line="358"/>
+=======
+        <location filename="../fragments/home.py" line="304"/>
+>>>>>>> Stashed changes
         <source>反和谐成功，请重启BA下载资源</source>
         <translation>Anti-harmony success, please restart BA download resources</translation>
     </message>
     <message>
+<<<<<<< Updated upstream
         <location filename="../fragments/home.py" line="366"/>
+=======
+        <location filename="../fragments/home.py" line="312"/>
+>>>>>>> Stashed changes
         <source>主线剧情已完成</source>
         <translation>Main Story Completed</translation>
     </message>
     <message>
+<<<<<<< Updated upstream
         <location filename="../fragments/home.py" line="378"/>
+=======
+        <location filename="../fragments/home.py" line="324"/>
+>>>>>>> Stashed changes
         <source>小组剧情已完成</source>
         <translation>Group Story Completed</translation>
     </message>
     <message>
+<<<<<<< Updated upstream
         <location filename="../fragments/home.py" line="390"/>
+=======
+        <location filename="../fragments/home.py" line="336"/>
+>>>>>>> Stashed changes
         <source>支线剧情已完成</source>
         <translation>Mini story completed</translation>
     </message>
     <message>
+<<<<<<< Updated upstream
         <location filename="../fragments/home.py" line="402"/>
+=======
+        <location filename="../fragments/home.py" line="348"/>
+>>>>>>> Stashed changes
         <source>活动剧情已完成</source>
         <translation>Event Story Completed</translation>
     </message>
     <message>
+<<<<<<< Updated upstream
         <location filename="../fragments/home.py" line="414"/>
+=======
+        <location filename="../fragments/home.py" line="360"/>
+>>>>>>> Stashed changes
         <source>活动任务已完成</source>
         <translation>Event Quest Completed</translation>
     </message>
     <message>
+<<<<<<< Updated upstream
         <location filename="../fragments/home.py" line="426"/>
+=======
+        <location filename="../fragments/home.py" line="372"/>
+>>>>>>> Stashed changes
         <source>活动挑战推图已完成</source>
         <translation>Event Challenge Completed</translation>
     </message>
     <message>
+<<<<<<< Updated upstream
         <location filename="../fragments/home.py" line="430"/>
+=======
+        <location filename="../fragments/home.py" line="376"/>
+>>>>>>> Stashed changes
         <source>无任务</source>
         <translation>No task</translation>
     </message>
     <message>
+<<<<<<< Updated upstream
         <location filename="../fragments/home.py" line="345"/>
+=======
+        <location filename="../fragments/home.py" line="291"/>
+>>>>>>> Stashed changes
         <source>普通关推图</source>
         <translation>Clear Normal Mission</translation>
     </message>
     <message>
+<<<<<<< Updated upstream
         <location filename="../fragments/home.py" line="362"/>
+=======
+        <location filename="../fragments/home.py" line="308"/>
+>>>>>>> Stashed changes
         <source>自动主线剧情</source>
         <translation>Main Story</translation>
     </message>
     <message>
+<<<<<<< Updated upstream
         <location filename="../fragments/home.py" line="374"/>
+=======
+        <location filename="../fragments/home.py" line="320"/>
+>>>>>>> Stashed changes
         <source>自动小组剧情</source>
         <translation>Group Story</translation>
     </message>
     <message>
+<<<<<<< Updated upstream
         <location filename="../fragments/home.py" line="387"/>
+=======
+        <location filename="../fragments/home.py" line="333"/>
+>>>>>>> Stashed changes
         <source>自动支线剧情</source>
         <translation>Mini Story</translation>
     </message>
     <message>
+<<<<<<< Updated upstream
         <location filename="../fragments/home.py" line="399"/>
+=======
+        <location filename="../fragments/home.py" line="345"/>
+>>>>>>> Stashed changes
         <source>自动活动剧情</source>
         <translation>Clear Event Story</translation>
     </message>
     <message>
+<<<<<<< Updated upstream
         <location filename="../fragments/home.py" line="411"/>
+=======
+        <location filename="../fragments/home.py" line="357"/>
+>>>>>>> Stashed changes
         <source>自动活动任务</source>
         <translation>Clear Event Quest</translation>
     </message>
     <message>
+<<<<<<< Updated upstream
         <location filename="../fragments/home.py" line="422"/>
+=======
+        <location filename="../fragments/home.py" line="368"/>
+>>>>>>> Stashed changes
         <source>自动活动挑战</source>
         <translation>Clear Event Challenge</translation>
     </message>
@@ -1967,7 +2166,11 @@ set the &apos;emulator address&apos; to your MuMu emulator path, accurate to MuM
 <context>
     <name>RenameDialogBox</name>
     <message>
+<<<<<<< Updated upstream
         <location filename="../../window.py" line="199"/>
+=======
+        <location filename="../../window.py" line="213"/>
+>>>>>>> Stashed changes
         <source>配置详情</source>
         <translation>Detailed Configuration</translation>
     </message>
@@ -1975,22 +2178,38 @@ set the &apos;emulator address&apos; to your MuMu emulator path, accurate to MuM
 <context>
     <name>RenameDialogContext</name>
     <message>
+<<<<<<< Updated upstream
         <location filename="../../window.py" line="206"/>
+=======
+        <location filename="../../window.py" line="220"/>
+>>>>>>> Stashed changes
         <source>原来的配置名称</source>
         <translation>The name of the original configuration</translation>
     </message>
     <message>
+<<<<<<< Updated upstream
         <location filename="../../window.py" line="212"/>
+=======
+        <location filename="../../window.py" line="226"/>
+>>>>>>> Stashed changes
         <source>修改后的配置名称</source>
         <translation>The name of the modified configuration</translation>
     </message>
     <message>
+<<<<<<< Updated upstream
         <location filename="../../window.py" line="235"/>
+=======
+        <location filename="../../window.py" line="249"/>
+>>>>>>> Stashed changes
         <source>确定</source>
         <translation>Are you sure</translation>
     </message>
     <message>
+<<<<<<< Updated upstream
         <location filename="../../window.py" line="236"/>
+=======
+        <location filename="../../window.py" line="250"/>
+>>>>>>> Stashed changes
         <source>取消</source>
         <translation>Cancel</translation>
     </message>
@@ -2081,7 +2300,16 @@ set the &apos;emulator address&apos; to your MuMu emulator path, accurate to MuM
         <translation>Server &amp; Emulator Settings</translation>
     </message>
     <message>
+<<<<<<< Updated upstream
         <location filename="../fragments/settings.py" line="39"/>
+=======
+        <location filename="../fragments/settings.py" line="33"/>
+        <source>选择你的服务器平台，设置你的端口（不知道端口请设置为0）</source>
+        <translation>Select your server platform and set your port (set to 0 if you don&apos;t know the port)</translation>
+    </message>
+    <message>
+        <location filename="../fragments/settings.py" line="41"/>
+>>>>>>> Stashed changes
         <source>脚本相关设置</source>
         <translation>Script Settings</translation>
     </message>
@@ -2206,12 +2434,20 @@ set the &apos;emulator address&apos; to your MuMu emulator path, accurate to MuM
         <translation>Change the size of widgets and fonts</translation>
     </message>
     <message>
+<<<<<<< Updated upstream
         <location filename="../fragments/settings.py" line="217"/>
+=======
+        <location filename="../fragments/settings.py" line="214"/>
+>>>>>>> Stashed changes
         <source>更新成功</source>
         <translation>The update was successful</translation>
     </message>
     <message>
+<<<<<<< Updated upstream
         <location filename="../fragments/settings.py" line="217"/>
+=======
+        <location filename="../fragments/settings.py" line="214"/>
+>>>>>>> Stashed changes
         <source>配置将在重新启动后生效</source>
         <translation>The configuration will take effect after the reboot</translation>
     </message>
@@ -2243,12 +2479,20 @@ set the &apos;emulator address&apos; to your MuMu emulator path, accurate to MuM
     <message>
         <location filename="../fragments/settings.py" line="60"/>
         <source>编队配置</source>
+<<<<<<< Updated upstream
         <translation>Formation config</translation>
+=======
+        <translation>Formation configuration</translation>
+>>>>>>> Stashed changes
     </message>
     <message>
         <location filename="../fragments/settings.py" line="60"/>
         <source>根据你的实际情况，设置编队相关参数。</source>
+<<<<<<< Updated upstream
         <translation>Set the formation-related parameters according to your actual situation.</translation>
+=======
+        <translation>Set the formation-related parameters according to your situation.</translation>
+>>>>>>> Stashed changes
     </message>
     <message>
         <location filename="../fragments/settings.py" line="68"/>
@@ -2361,37 +2605,65 @@ set the &apos;emulator address&apos; to your MuMu emulator path, accurate to MuM
 <context>
     <name>Window</name>
     <message>
+<<<<<<< Updated upstream
         <location filename="../../window.py" line="473"/>
+=======
+        <location filename="../../window.py" line="476"/>
+>>>>>>> Stashed changes
         <source>主页</source>
         <translation>Home</translation>
     </message>
     <message>
+<<<<<<< Updated upstream
         <location filename="../../window.py" line="475"/>
+=======
+        <location filename="../../window.py" line="478"/>
+>>>>>>> Stashed changes
         <source>配置</source>
         <translation>Dailies</translation>
     </message>
     <message>
+<<<<<<< Updated upstream
         <location filename="../../window.py" line="476"/>
+=======
+        <location filename="../../window.py" line="479"/>
+>>>>>>> Stashed changes
         <source>设置</source>
         <translation>Settings</translation>
     </message>
     <message>
+<<<<<<< Updated upstream
         <location filename="../../window.py" line="602"/>
+=======
+        <location filename="../../window.py" line="593"/>
+>>>>>>> Stashed changes
         <source>是否要删除配置：</source>
         <translation>Do you want to delete the configuration:</translation>
     </message>
     <message>
+<<<<<<< Updated upstream
         <location filename="../../window.py" line="603"/>
+=======
+        <location filename="../../window.py" line="594"/>
+>>>>>>> Stashed changes
         <source>你需要在确认后重启BAAS以完成更改。</source>
         <translation>You will need to restart Baas after confirmation to complete the changes.</translation>
     </message>
     <message>
+<<<<<<< Updated upstream
         <location filename="../../window.py" line="474"/>
+=======
+        <location filename="../../window.py" line="477"/>
+>>>>>>> Stashed changes
         <source>调度</source>
         <translation>Schedule</translation>
     </message>
     <message>
+<<<<<<< Updated upstream
         <location filename="../../window.py" line="566"/>
+=======
+        <location filename="../../window.py" line="561"/>
+>>>>>>> Stashed changes
         <source>设置失败</source>
         <translation>Setup failed</translation>
     </message>
@@ -2421,17 +2693,29 @@ set the &apos;emulator address&apos; to your MuMu emulator path, accurate to MuM
         <translation>TemplateLayout</translation>
     </message>
     <message>
+<<<<<<< Updated upstream
         <location filename="../../window.py" line="221"/>
+=======
+        <location filename="../../window.py" line="235"/>
+>>>>>>> Stashed changes
         <source>ConfigTranslation</source>
         <translation>ConfigTranslation</translation>
     </message>
     <message>
+<<<<<<< Updated upstream
         <location filename="../fragments/home.py" line="224"/>
+=======
+        <location filename="../fragments/home.py" line="177"/>
+>>>>>>> Stashed changes
         <source>MainThread</source>
         <translation>MainThread</translation>
     </message>
     <message>
+<<<<<<< Updated upstream
         <location filename="../fragments/home.py" line="226"/>
+=======
+        <location filename="../fragments/home.py" line="179"/>
+>>>>>>> Stashed changes
         <source>MainThread</source>
         <comment>停止</comment>
         <translation>MainThread</translation>
@@ -2458,7 +2742,11 @@ set the &apos;emulator address&apos; to your MuMu emulator path, accurate to MuM
 <context>
     <name>helpModal</name>
     <message>
+<<<<<<< Updated upstream
         <location filename="../../window.py" line="516"/>
+=======
+        <location filename="../../window.py" line="518"/>
+>>>>>>> Stashed changes
         <source>帮助</source>
         <translation>Help</translation>
     </message>

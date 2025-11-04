@@ -77,7 +77,11 @@
 <context>
     <name>BAASLangAltButton</name>
     <message>
+<<<<<<< Updated upstream
         <location filename="../../window.py" line="307"/>
+=======
+        <location filename="../../window.py" line="322"/>
+>>>>>>> Stashed changes
         <source>语言设置</source>
         <translation>言語設定</translation>
     </message>
@@ -85,7 +89,11 @@
 <context>
     <name>BAASTabItem</name>
     <message>
+<<<<<<< Updated upstream
         <location filename="../../window.py" line="250"/>
+=======
+        <location filename="../../window.py" line="264"/>
+>>>>>>> Stashed changes
         <source>重命名</source>
         <translation>名前の変更</translation>
     </message>
@@ -93,12 +101,20 @@
 <context>
     <name>BAASTitleBar</name>
     <message>
+<<<<<<< Updated upstream
         <location filename="../../window.py" line="360"/>
+=======
+        <location filename="../../window.py" line="375"/>
+>>>>>>> Stashed changes
         <source>帮助</source>
         <translation>ヘルプ</translation>
     </message>
     <message>
+<<<<<<< Updated upstream
         <location filename="../../window.py" line="356"/>
+=======
+        <location filename="../../window.py" line="371"/>
+>>>>>>> Stashed changes
         <source>更新日志</source>
         <translation>変更履歴</translation>
     </message>
@@ -791,42 +807,66 @@
         <translation>ブルアカ 自動スクリプト</translation>
     </message>
     <message>
+<<<<<<< Updated upstream
         <location filename="../fragments/home.py" line="53"/>
+=======
+        <location filename="../fragments/home.py" line="50"/>
+>>>>>>> Stashed changes
         <source>无任务</source>
         <translation>タスクなし</translation>
     </message>
     <message>
-        <location filename="../fragments/home.py" line="68"/>
+        <location filename="../fragments/home.py" line="67"/>
         <source>启动</source>
         <translation>起動</translation>
     </message>
     <message>
-        <location filename="../fragments/home.py" line="68"/>
+        <location filename="../fragments/home.py" line="67"/>
         <source>档案，启动</source>
         <translation>ブルアカ、起動</translation>
     </message>
     <message>
+<<<<<<< Updated upstream
         <location filename="../fragments/home.py" line="257"/>
+=======
+        <location filename="../fragments/home.py" line="212"/>
+>>>>>>> Stashed changes
         <source>开始你的档案之旅</source>
         <translation>アーカイブの旅を始めましょう</translation>
     </message>
     <message>
+<<<<<<< Updated upstream
         <location filename="../fragments/home.py" line="200"/>
+=======
+        <location filename="../fragments/home.py" line="152"/>
+>>>>>>> Stashed changes
         <source>正在运行：</source>
         <translation>実行中：</translation>
     </message>
     <message>
+<<<<<<< Updated upstream
         <location filename="../fragments/home.py" line="257"/>
+=======
+        <location filename="../fragments/home.py" line="212"/>
+>>>>>>> Stashed changes
         <source>完成后</source>
         <translation>完了したら</translation>
     </message>
     <message>
+<<<<<<< Updated upstream
         <location filename="../fragments/home.py" line="77"/>
+=======
+        <location filename="../fragments/home.py" line="76"/>
+>>>>>>> Stashed changes
         <source>资产显示：开</source>
         <translation>資産表示：開</translation>
     </message>
     <message>
+<<<<<<< Updated upstream
         <location filename="../fragments/home.py" line="78"/>
+=======
+        <location filename="../fragments/home.py" line="77"/>
+>>>>>>> Stashed changes
         <source>资产显示：关</source>
         <translation>資産表示：関</translation>
     </message>
@@ -899,6 +939,14 @@
         <translation>追加する生徒</translation>
     </message>
     <message>
+<<<<<<< Updated upstream
+=======
+        <location filename="../components/expand/cafeInvite.py" line="70"/>
+        <source>选择摸头方式：</source>
+        <translation type="obsolete">頭に触れる方法を選択します：</translation>
+    </message>
+    <message>
+>>>>>>> Stashed changes
         <location filename="../components/expand/createPriority.py" line="102"/>
         <source>是否使用加速券</source>
         <translation>アクセラレータクーポンを使用するのか</translation>
@@ -1245,7 +1293,7 @@ nemu の使用が推奨され、nemu を使用している場合は、「エミ�
     <message>
         <location filename="../components/expand/cafeInvite.py" line="105"/>
         <source>咖啡厅 {cafe_no} 邀请券选择模式：</source>
-        <translation>カフェ{cafe_no}招待チケット選択モード:</translation>
+        <translation type="obsolete">カフェ{cafe_no}招待チケット選択モード:</translation>
     </message>
     <message>
         <location filename="../components/expand/cafeInvite.py" line="146"/>
@@ -1762,101 +1810,197 @@ nemu の使用が推奨され、nemu を使用している場合は、「エミ�
         <source>制造石</source>
         <translation>クラフトストーン</translation>
     </message>
+    <message>
+        <location filename="../components/expand/cafeInvite.py" line="71"/>
+        <source>摸头轮数 (轮数越高越不会漏摸): </source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../components/expand/cafeInvite.py" line="79"/>
+        <source>选择摸头方式: </source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../components/expand/cafeInvite.py" line="105"/>
+        <source>咖啡厅 </source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../components/expand/cafeInvite.py" line="105"/>
+        <source> 邀请券选择模式：</source>
+        <translation type="unfinished"></translation>
+    </message>
 </context>
 <context>
     <name>MainThread</name>
     <message>
+<<<<<<< Updated upstream
         <location filename="../fragments/home.py" line="423"/>
+=======
+        <location filename="../fragments/home.py" line="369"/>
+>>>>>>> Stashed changes
         <source>停止</source>
         <translation>止める</translation>
     </message>
     <message>
+<<<<<<< Updated upstream
         <location filename="../fragments/home.py" line="429"/>
+=======
+        <location filename="../fragments/home.py" line="375"/>
+>>>>>>> Stashed changes
         <source>启动</source>
         <translation>起動</translation>
     </message>
     <message>
+<<<<<<< Updated upstream
         <location filename="../fragments/home.py" line="337"/>
+=======
+        <location filename="../fragments/home.py" line="283"/>
+>>>>>>> Stashed changes
         <source>困难图推图已完成</source>
         <translation>ハードステージがクリアしました</translation>
     </message>
     <message>
+<<<<<<< Updated upstream
         <location filename="../fragments/home.py" line="430"/>
+=======
+        <location filename="../fragments/home.py" line="376"/>
+>>>>>>> Stashed changes
         <source>无任务</source>
         <translation>タスクなし</translation>
     </message>
     <message>
+<<<<<<< Updated upstream
         <location filename="../fragments/home.py" line="345"/>
+=======
+        <location filename="../fragments/home.py" line="291"/>
+>>>>>>> Stashed changes
         <source>普通关推图</source>
         <translation>普通ステージをクリアする</translation>
     </message>
     <message>
+<<<<<<< Updated upstream
         <location filename="../fragments/home.py" line="349"/>
+=======
+        <location filename="../fragments/home.py" line="295"/>
+>>>>>>> Stashed changes
         <source>普通图推图已完成</source>
         <translation>普通ステージがクリアしました</translation>
     </message>
     <message>
+<<<<<<< Updated upstream
         <location filename="../fragments/home.py" line="358"/>
+=======
+        <location filename="../fragments/home.py" line="304"/>
+>>>>>>> Stashed changes
         <source>反和谐成功，请重启BA下载资源</source>
         <translation>アンチハーモニーが成功しました。BAを再起動してリソースをダウンロードしてください</translation>
     </message>
     <message>
+<<<<<<< Updated upstream
         <location filename="../fragments/home.py" line="362"/>
+=======
+        <location filename="../fragments/home.py" line="308"/>
+>>>>>>> Stashed changes
         <source>自动主线剧情</source>
         <translation>本編プロットをクリアする</translation>
     </message>
     <message>
+<<<<<<< Updated upstream
         <location filename="../fragments/home.py" line="366"/>
+=======
+        <location filename="../fragments/home.py" line="312"/>
+>>>>>>> Stashed changes
         <source>主线剧情已完成</source>
         <translation>本編プロットがクリアしました</translation>
     </message>
     <message>
+<<<<<<< Updated upstream
         <location filename="../fragments/home.py" line="374"/>
+=======
+        <location filename="../fragments/home.py" line="320"/>
+>>>>>>> Stashed changes
         <source>自动小组剧情</source>
         <translation>グループプロットをクリアする</translation>
     </message>
     <message>
+<<<<<<< Updated upstream
         <location filename="../fragments/home.py" line="378"/>
+=======
+        <location filename="../fragments/home.py" line="324"/>
+>>>>>>> Stashed changes
         <source>小组剧情已完成</source>
         <translation>グループストーリーがクリアしました</translation>
     </message>
     <message>
+<<<<<<< Updated upstream
         <location filename="../fragments/home.py" line="387"/>
+=======
+        <location filename="../fragments/home.py" line="333"/>
+>>>>>>> Stashed changes
         <source>自动支线剧情</source>
         <translation>サブプロットをクリアする</translation>
     </message>
     <message>
+<<<<<<< Updated upstream
         <location filename="../fragments/home.py" line="390"/>
+=======
+        <location filename="../fragments/home.py" line="336"/>
+>>>>>>> Stashed changes
         <source>支线剧情已完成</source>
         <translation>サブストーリーがクリアしました</translation>
     </message>
     <message>
+<<<<<<< Updated upstream
         <location filename="../fragments/home.py" line="399"/>
+=======
+        <location filename="../fragments/home.py" line="345"/>
+>>>>>>> Stashed changes
         <source>自动活动剧情</source>
         <translation>イベントプロットをクリアする</translation>
     </message>
     <message>
+<<<<<<< Updated upstream
         <location filename="../fragments/home.py" line="402"/>
+=======
+        <location filename="../fragments/home.py" line="348"/>
+>>>>>>> Stashed changes
         <source>活动剧情已完成</source>
         <translation>イベントプロットがクリアしました</translation>
     </message>
     <message>
+<<<<<<< Updated upstream
         <location filename="../fragments/home.py" line="411"/>
+=======
+        <location filename="../fragments/home.py" line="357"/>
+>>>>>>> Stashed changes
         <source>自动活动任务</source>
         <translation>イベントタスクをクリアする</translation>
     </message>
     <message>
+<<<<<<< Updated upstream
         <location filename="../fragments/home.py" line="414"/>
+=======
+        <location filename="../fragments/home.py" line="360"/>
+>>>>>>> Stashed changes
         <source>活动任务已完成</source>
         <translation>イベントタスクがクリアしました</translation>
     </message>
     <message>
+<<<<<<< Updated upstream
         <location filename="../fragments/home.py" line="422"/>
+=======
+        <location filename="../fragments/home.py" line="368"/>
+>>>>>>> Stashed changes
         <source>自动活动挑战</source>
         <translation>イベント挑戦をクリアする</translation>
     </message>
     <message>
+<<<<<<< Updated upstream
         <location filename="../fragments/home.py" line="426"/>
+=======
+        <location filename="../fragments/home.py" line="372"/>
+>>>>>>> Stashed changes
         <source>活动挑战推图已完成</source>
         <translation>イベントチャレンジがクリアしました</translation>
     </message>
@@ -1964,7 +2108,11 @@ nemu の使用が推奨され、nemu を使用している場合は、「エミ�
 <context>
     <name>RenameDialogBox</name>
     <message>
+<<<<<<< Updated upstream
         <location filename="../../window.py" line="199"/>
+=======
+        <location filename="../../window.py" line="213"/>
+>>>>>>> Stashed changes
         <source>配置详情</source>
         <translation>構成の詳細</translation>
     </message>
@@ -1972,22 +2120,38 @@ nemu の使用が推奨され、nemu を使用している場合は、「エミ�
 <context>
     <name>RenameDialogContext</name>
     <message>
+<<<<<<< Updated upstream
         <location filename="../../window.py" line="206"/>
+=======
+        <location filename="../../window.py" line="220"/>
+>>>>>>> Stashed changes
         <source>原来的配置名称</source>
         <translation>元の構成の名前</translation>
     </message>
     <message>
+<<<<<<< Updated upstream
         <location filename="../../window.py" line="212"/>
+=======
+        <location filename="../../window.py" line="226"/>
+>>>>>>> Stashed changes
         <source>修改后的配置名称</source>
         <translation>変更された構成の名前</translation>
     </message>
     <message>
+<<<<<<< Updated upstream
         <location filename="../../window.py" line="235"/>
+=======
+        <location filename="../../window.py" line="249"/>
+>>>>>>> Stashed changes
         <source>确定</source>
         <translation>決定</translation>
     </message>
     <message>
+<<<<<<< Updated upstream
         <location filename="../../window.py" line="236"/>
+=======
+        <location filename="../../window.py" line="250"/>
+>>>>>>> Stashed changes
         <source>取消</source>
         <translation>キャンセル</translation>
     </message>
@@ -2203,12 +2367,20 @@ nemu の使用が推奨され、nemu を使用している場合は、「エミ�
         <translation>ウィジェットとフォントのサイズを変更する</translation>
     </message>
     <message>
+<<<<<<< Updated upstream
         <location filename="../fragments/settings.py" line="217"/>
+=======
+        <location filename="../fragments/settings.py" line="214"/>
+>>>>>>> Stashed changes
         <source>更新成功</source>
         <translation>更新は成功しました</translation>
     </message>
     <message>
+<<<<<<< Updated upstream
         <location filename="../fragments/settings.py" line="217"/>
+=======
+        <location filename="../fragments/settings.py" line="214"/>
+>>>>>>> Stashed changes
         <source>配置将在重新启动后生效</source>
         <translation>この設定は、再起動後に有効になります</translation>
     </message>
@@ -2358,37 +2530,65 @@ nemu の使用が推奨され、nemu を使用している場合は、「エミ�
 <context>
     <name>Window</name>
     <message>
+<<<<<<< Updated upstream
         <location filename="../../window.py" line="473"/>
+=======
+        <location filename="../../window.py" line="476"/>
+>>>>>>> Stashed changes
         <source>主页</source>
         <translation>ホーム</translation>
     </message>
     <message>
+<<<<<<< Updated upstream
         <location filename="../../window.py" line="474"/>
+=======
+        <location filename="../../window.py" line="477"/>
+>>>>>>> Stashed changes
         <source>调度</source>
         <translation>スケジュール</translation>
     </message>
     <message>
+<<<<<<< Updated upstream
         <location filename="../../window.py" line="475"/>
+=======
+        <location filename="../../window.py" line="478"/>
+>>>>>>> Stashed changes
         <source>配置</source>
         <translation>構成</translation>
     </message>
     <message>
+<<<<<<< Updated upstream
         <location filename="../../window.py" line="476"/>
+=======
+        <location filename="../../window.py" line="479"/>
+>>>>>>> Stashed changes
         <source>设置</source>
         <translation>設定</translation>
     </message>
     <message>
+<<<<<<< Updated upstream
         <location filename="../../window.py" line="566"/>
+=======
+        <location filename="../../window.py" line="561"/>
+>>>>>>> Stashed changes
         <source>设置失败</source>
         <translation>セットアップ失敗</translation>
     </message>
     <message>
+<<<<<<< Updated upstream
         <location filename="../../window.py" line="602"/>
+=======
+        <location filename="../../window.py" line="593"/>
+>>>>>>> Stashed changes
         <source>是否要删除配置：</source>
         <translation>設定を削除しますか：</translation>
     </message>
     <message>
+<<<<<<< Updated upstream
         <location filename="../../window.py" line="603"/>
+=======
+        <location filename="../../window.py" line="594"/>
+>>>>>>> Stashed changes
         <source>你需要在确认后重启BAAS以完成更改。</source>
         <translation>変更を完了するには、確認後に BAAS を再起動する必要があります。</translation>
     </message>
@@ -2401,7 +2601,11 @@ nemu の使用が推奨され、nemu を使用している場合は、「エミ�
 <context>
     <name>bt</name>
     <message>
+<<<<<<< Updated upstream
         <location filename="../../window.py" line="221"/>
+=======
+        <location filename="../../window.py" line="235"/>
+>>>>>>> Stashed changes
         <source>ConfigTranslation</source>
         <translation>構成の翻訳</translation>
     </message>
@@ -2423,12 +2627,20 @@ nemu の使用が推奨され、nemu を使用している場合は、「エミ�
         <translation>実行</translation>
     </message>
     <message>
+<<<<<<< Updated upstream
         <location filename="../fragments/home.py" line="224"/>
+=======
+        <location filename="../fragments/home.py" line="177"/>
+>>>>>>> Stashed changes
         <source>MainThread</source>
         <translation>メイン・トレッド</translation>
     </message>
     <message>
+<<<<<<< Updated upstream
         <location filename="../fragments/home.py" line="226"/>
+=======
+        <location filename="../fragments/home.py" line="179"/>
+>>>>>>> Stashed changes
         <source>MainThread</source>
         <comment>停止</comment>
         <translation>メイン・トレッド</translation>
@@ -2455,7 +2667,11 @@ nemu の使用が推奨され、nemu を使用している場合は、「エミ�
 <context>
     <name>helpModal</name>
     <message>
+<<<<<<< Updated upstream
         <location filename="../../window.py" line="516"/>
+=======
+        <location filename="../../window.py" line="518"/>
+>>>>>>> Stashed changes
         <source>帮助</source>
         <translation>ヘルプ</translation>
     </message>
